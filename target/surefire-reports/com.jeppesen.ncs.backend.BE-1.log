@@ -1,0 +1,6 @@
+13:56:21.026 karate.env system property was: test 
+13:56:21.029 karate Environment is:  test 
+13:56:21.938 >> lock acquired, begin callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:56:22.041 << lock released, cached callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:56:22.930 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 11; columnNumber: 5; The element type "link" must be terminated by the matching end-tag "</link>".
+horized","message":"Not authorized for login","path":"/login"}

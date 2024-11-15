@@ -1,0 +1,3 @@
+13:43:24.062 karate.env system property was: test 
+13:43:24.065 karate Environment is:  test 
+13:43:24.094 http request failed: java.net.URISyntaxException: Illegal character in query at index 87: https://ncs-portal-int-wus.azurewebsites.net/login?username=mary&password=expass&_csrf={{token}}

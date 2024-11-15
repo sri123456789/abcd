@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019111928F">
+        <NtmSource>LFFAYNYX</NtmSource>
+        <NtmNumber>W2873/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LFBB</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>LFDN</AptId>
+                <AptIdIata>RCO</AptIdIata>
+                <AptLat>N45532200</AptLat>
+                <AptLong>W000585600</AptLong>
+                <AptDdLat>45.889444</AptDdLat>
+                <AptDdLong>-0.982222</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-11-08T16:53:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="PERM">3000-12-31T23:59:59Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WZLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>MODEL FLYING WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LF</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>FRA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="45.816667">N4549.0</GeoNtmLat>
+            <GeoNtmLong LongDd="-0.933333">W00056.0</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+SR-SS
+</NtmTxtSchedule>
+        <NtmTxtContent>
+MODEL FLYING ACT AT SAINT JEAN D'ANGLE RDL155/4.4NM LFDN ARP :
+PSN : 454922N 0005614W
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+500FT AGL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+081653 EUECYIYN
+(W2873/19 NOTAMR W2056/19
+Q) LFBB/QWZLW/IV/M  /AW/000/006/4549N00056W005
+A) LFDN B) 1911081653 C) PERM
+D) SR-SS
+E) MODEL FLYING ACT AT SAINT JEAN D'ANGLE RDL155/4.4NM LFDN ARP : 
+PSN : 454922N 0005614W
+F) SFC G) 500FT AGL)
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startEvent>SR</startEvent>
+                <endEvent>SS</endEvent>
+                <startDay>08</startDay>
+                <endDay>31</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>12</endMonth>
+                <startYear>2019</startYear>
+                <endYear>3000</endYear>
+                <endIndicator>UNSTATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmJeppStatusDate>2019-11-08T16:54:48Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">20190816332</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

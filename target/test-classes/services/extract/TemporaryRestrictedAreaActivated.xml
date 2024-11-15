@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20210412F9C">
+        <NtmSource>LFFAYNYX</NtmSource>
+        <NtmNumber>R0948/21</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LFEE</FirId>
+            </NtmFir>
+            <NtmFir>
+                <FirId>LFFF</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2021-04-22T00:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2025-04-20T23:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>RTCA</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>TEMPORARY RESTRICTED AREA ACTIVATED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LF</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>FRA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>055</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>095</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="48.316667">N4819.0</GeoNtmLat>
+            <GeoNtmLong LongDd="4.883333">E00453.0</GeoNtmLong>
+            <GeoNtmRadius>27</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+DRONE FLIGHTS IN 'CHAUMONT' REGION - AIP SUP 077/21:
+SUBJECT: CREATION, ON AN EXPERIMENTAL BASIS, OF TWO TEMPO
+RESTRICTED
+AREAS
+'PATROLLER' AND 'TRANSIT'.
+THIS AIP SUP IS AVBL AT WWW.SIA.AVIATION-CIVILE.GOUV.FR
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+FL055 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+FL095
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+080912 EUECYIYN
+(R0948/21 NOTAMN
+Q) LFXX/QRTCA/IV/BO /W /055/095/4819N00453E027
+A) LFEE LFFF B) 2104220000 C) 2204202359
+E) DRONE FLIGHTS IN 'CHAUMONT' REGION - AIP SUP 077/21:
+SUBJECT: CREATION, ON AN EXPERIMENTAL BASIS, OF TWO TEMPO RESTRICTED 
+AREAS 
+'PATROLLER' AND 'TRANSIT'.
+THIS AIP SUP IS AVBL AT WWW.SIA.AVIATION-CIVILE.GOUV.FR
+F) FL055 G) FL095)
+</NtmSourceData>
+        <NtmJeppStatusDate>2021-04-08T09:17:46Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

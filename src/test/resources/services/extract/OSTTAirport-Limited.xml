@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2021120534D">
+        <NtmSource>OSDIYNYX</NtmSource>
+        <NtmNumber>A0202/21</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>OSTT</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>OSLK</AptId>
+                <AptIdIata>LTK</AptIdIata>
+                <AptLat>N35243566</AptLat>
+                <AptLong>E035565221</AptLong>
+                <AptDdLat>35.409906</AptDdLat>
+                <AptDdLong>35.947836</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2021-12-02T11:30:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="EST">2029-03-01T15:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>MRLC</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>NBO</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>RUNWAY CLOSED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>MES</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>OS</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>SYR</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="35.409906">N3524.6</GeoNtmLat>
+            <GeoNtmLong LongDd="35.947836">E03556.9</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+RWY 17R/35L CLOSED DUE TO WORK IN PROGRESS.
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+021115 EUECYIYN
+(A0202/21 NOTAMR A0148/21
+Q) OSTT/QMRLC/IV/NBO/A /000/999/3525N03557E005
+A) OSLK B) 2112021130 C) 2203011500EST
+E) RWY 17R/35L CLOSED DUE TO WIP.)
+</NtmSourceData>
+        <Runway>
+            <NtmRwy>
+                <RwyId>17R</RwyId>
+                <RwyAptId>OSLK</RwyAptId>
+                <RwySfc>ASPH</RwySfc>
+                <RwyAction>CLOSED</RwyAction>
+                <entityRef>RWY-17R-ASPH-OSLK-MRLC</entityRef>
+            </NtmRwy>
+            <NtmRwy>
+                <RwyId>35L</RwyId>
+                <RwyAptId>OSLK</RwyAptId>
+                <RwySfc>ASPH</RwySfc>
+                <RwyAction>CLOSED</RwyAction>
+                <entityRef>RWY-35L-ASPH-OSLK-MRLC</entityRef>
+            </NtmRwy>
+        </Runway>
+        <NtmJeppStatusDate>2021-12-02T11:16:13Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">20210903C5F</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

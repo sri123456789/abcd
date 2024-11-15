@@ -1,0 +1,3 @@
+13:42:42.662 karate.env system property was: test 
+13:42:42.662 karate Environment is:  test 
+13:42:42.697 http request failed: request body is required for a POST, please use the 'request' keyword

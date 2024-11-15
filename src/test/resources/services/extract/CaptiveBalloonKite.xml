@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20191029995">
+        <NtmSource>SCSCYNYX</NtmSource>
+        <NtmNumber>W1793/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>SCEZ</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>SCLC</AptId>
+                <AptIdIata/>
+                <AptLat>S33225040</AptLat>
+                <AptLong>W070345560</AptLong>
+                <AptDdLat>-33.380667</AptDdLat>
+                <AptDdLong>-70.582111</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-10-15T18:32:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2024-12-31T23:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WCLW</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>CAPTIVE BALLOON OR KITE WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>SAM</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>SC</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>CHL</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="-825.1171875">S3319.3</GeoNtmLat>
+            <GeoNtmLong LongDd="39.50404070558415">W07033.4</GeoNtmLong>
+            <GeoNtmRadius>1</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+CAPTIVE BALLOON ZONE ...D... RDO 1 NM CENTERED ON NXT GEO COORD:
+331918S/0703321 SECT LO BARNECHEA REGION METROPOLITANA.
+INSTRUCTIONS: SANTIAGO INFO 122.4 MHZ
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+500 FT AGL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+151832 SCSCYNYX
+(W1793/19 NOTAMR W1533/19 
+Q) SCEZ/QWCLW/IV/M/W/000/005/3319S07033W001
+A) SCEZ B) 1910151832 C) 2008312359
+E) CAPTIVE BALLOON ZONE ...D... RDO 1 NM CENTERED ON NXT GEO COORD:
+331918S/0703321 SECT LO BARNECHEA REGION METROPOLITANA.
+INSTRUCTIONS: SANTIAGO INFO 122.4 MHZ
+F) SFC G) 500 FT AGL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-15T18:33:05Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">201909224A6</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

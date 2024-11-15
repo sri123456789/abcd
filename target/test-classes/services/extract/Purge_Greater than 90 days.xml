@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="C" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20111010EF5EAD">
+        <NtmSource>LRBBYNYX</NtmSource>
+        <NtmNumber>M0028/20</NtmNumber>
+        <NtmNotamType>ML</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LRBB</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-09-07T06:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2020-01-01T16:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WYLW</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose/>
+                <QcdScope/>
+                <QcdDecode>AERIAL SURVEY WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EEU</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LR</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>ROU</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>030</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="45.150000">N4509.0</GeoNtmLat>
+            <GeoNtmLong LongDd="26.583333">E02635.0</GeoNtmLong>
+            <GeoNtmRadius>23</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+NAVIGATION WARNING.
+  AERIAL PHOTOGRAPHY WILL TAKE PLACE INTO THE FLW AREA:
+  451918N0260634E-452127N0270130E-445840N0270234E-445641N0260915E
+  451918N0260634E
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+FL030 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+FL100
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+061307 EUECYIYN
+(M0028/20 NOTAMN
+Q) LRBB/QWYLW/IV/M  /W /030/100/4509N02635E023
+A) LRBB B) 2001070600 C) 2001071600
+E) NAVIGATION WARNING.
+   AERIAL PHOTOGRAPHY WILL TAKE PLACE INTO THE FLW AREA:
+   451918N0260634E-452127N0270130E-445840N0270234E-445641N0260915E
+   451918N0260634E
+F) FL030 G) FL100)
+</NtmSourceData>
+        <NtmSpatial>
+            <ElevatedSurface id="POLYGON_01" srsName="urn:ogc:def:crs:EPSG::4326">
+                <patches>
+                    <PolygonPatch>
+                        <exterior>
+                            <LinearRing>
+                                <posList>45.321667 26.109444 45.357500 27.025000 44.977778 27.042778 44.944722 26.154167 45.321667 26.109444</posList>
+                            </LinearRing>
+                        </exterior>
+                    </PolygonPatch>
+                </patches>
+            </ElevatedSurface>
+        </NtmSpatial>
+        <NtmJeppStatusDate>2019-01-06T13:08:08Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

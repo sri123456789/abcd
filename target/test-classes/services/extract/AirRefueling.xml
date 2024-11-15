@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="201812327EA">
+        <NtmSource>LTAAYNYX</NtmSource>
+        <NtmNumber>A7667/18</NtmNumber>
+        <NtmNotamType>CN</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LTAA</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2018-12-28T11:35:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2040-12-31T20:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WFLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>AIR REFUELLING WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>MES</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LT</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>TUR</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>150</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>270</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="37.533333">N3732.0</GeoNtmLat>
+            <GeoNtmLong LongDd="38.016667">E03801.0</GeoNtmLong>
+            <GeoNtmRadius>39</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+AIR REFUELLING WILL TAKE PLACE.
+AREA:375000N0371850E 375000N0384300E 371500N0384300E
+371500N0371850E
+THE AREA CLOSED TO TRAFFIC BTN FL150-FL270
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+15000FT AMSL 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+27000FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+281136 LTAAYNYX
+(A7667/18 NOTAMR A6623/17
+Q) LTAA/QWFLW/IV/M  /W /150/270/3732N03801E039
+A) LTAA B) 1812281135 C) 1912312059
+E) AIR REFUELLING WILL TAKE PLACE.
+AREA:375000N0371850E 375000N0384300E 371500N0384300E 371500N0371850E
+THE AREA CLOSED TO TRAFFIC BTN FL150-FL270
+F) 15000FT AMSL G) 27000FT AMSL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2018-12-28T11:37:35Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">2017123094D</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

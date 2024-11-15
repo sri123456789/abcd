@@ -1,0 +1,3 @@
+13:50:45.884 karate.env system property was: test 
+13:50:45.884 karate Environment is:  test 
+13:50:46.448 assertion failed: path: $, actual: {timestamp=2024-11-01T19:50:46.507+00:00, status=400, error=Bad Request, message=Invalid geopolygon: {&quot;type&quot;:&quot;Geometry&quot;,&quot;geometries&quot;:[{&quot;type&quot;:&quot;LineString&quot;,&quot;coordinates&quot;:[[&quot;127.36666736.433333&quot;],[127.366667,36.439993]]}]}, path=/restrictedAreaNotams}, expected: 'Invalid geopolygon:', reason: actual value is not a string

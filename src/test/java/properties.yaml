@@ -1,0 +1,36 @@
+
+extract_service: 'https://ncs-ingest-uat-wus.azurewebsites.net'
+load_service: 'https://ncs-load-uat-wus.azurewebsites.net/notam/v2'
+extract_service_health: 'https://ncs-extract-uat-wus.azurewebsites.net/health'
+load_service_health: 'https://ncs-load-uat-wus.azurewebsites.net/health'
+load_service_appstatus: 'https://ncs-load-uat-wus.azurewebsites.net/appstatus/aggregate'
+Load_Previousversion: 'https://ncs-load-uat-wus.azurewebsites.net/notam/v1'
+Load_Runway : 'https://ncs-load-uat-wus.azurewebsites.net/v1'
+Load_Search: 'https://ncs-load-uat-wus.azurewebsites.net/notam/v1'
+
+
+
+
+
+
+
+database_url: 'jdbc:postgresql://ncs-trans-uat-westus-pg.postgres.database.azure.com:5432/ncs_transform_db'
+database_ssl: 'true'
+database_user: 'ncsdbadmin@ncs-trans-uat-westus-pg'
+database_pass: 'Nv4va5tmg63ndyx!'
+
+
+
+azure_container_name: 'ncs-ext-uat-bl'
+azure_connection_string: 'DefaultEndpointsProtocol=https;AccountName=ncsexttestsa;AccountKey=ww9qSiGOIGWLM7GQeoGmZzS+komKi4pGhzrOfsZIj7OB0a2KQDW7iifLJk8v7ZBPuGxNkJ3tSvEHdBWMSmFyLA==;EndpointSuffix=core.windows.net'
+
+
+
+key_store_name: 'notams-client.dev.notams.digitalaviationservices.com.renwed.pfx'
+key_store_pass: 'A1$notams-client.dev.notams'
+key_store_type: 'pkcs12'
+
+
+
+ 
+test_type: 'functional'

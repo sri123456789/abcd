@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="201909425C2">
+        <NtmSource>LFFAYNYX</NtmSource>
+        <NtmNumber>R2633/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LFEE</FirId>
+            </NtmFir>
+            <NtmFir>
+                <FirId>LFFF</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-11-07T00:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-12-30T23:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>RTCA</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>TEMPORARY RESTRICTED AREA ACTIVATED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LF</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>FRA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>095</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="48.266667">N4816.0</GeoNtmLat>
+            <GeoNtmLong LongDd="4.950000">E00457.0</GeoNtmLong>
+            <GeoNtmRadius>31</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+DRONES FLIGHTS OVER CHAUMONT REGION - AIP SUP 279/19:
+SUBJECT: CREATION OF 5 TEMPO RESTRICTED AREAS.
+THIS AIP SUP IS AVBL AT WWW.SIA.AVIATION-CIVILE.GOUV.FR
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+FL095
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+260842 LFFAYNYX
+(R2633/19 NOTAMN
+Q) LFXX/QRTCA/IV/BO /W /000/095/4816N00457E031
+A) LFEE LFFF B) 1911070000 C) 2007302359
+E) DRONES FLIGHTS OVER CHAUMONT REGION - AIP SUP 279/19:
+SUBJECT: CREATION OF 5 TEMPO RESTRICTED AREAS.
+THIS AIP SUP IS AVBL AT WWW.SIA.AVIATION-CIVILE.GOUV.FR
+F) SFC G) FL095
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-09-26T08:43:23Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

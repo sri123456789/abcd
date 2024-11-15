@@ -1,0 +1,7 @@
+13:50:33.227 karate.env system property was: test 
+13:50:33.228 karate Environment is:  test 
+13:50:33.556 assertion failed: path: $[*], actual: [], expected: {type=FeatureCollection, features=[{"type":"Feature","geometry":{"type":"Point","coordinates":[-103.077581,34.426589]},"properties":{"lower_alt_msl_ft":0,"upper_alt_msl_ft":99999}}], notamProperties={ntmNumber=08/013, fir={ntmFir=[{"firId":"KZAB"}]}, ntmEffDate={value=2021-08-31T15:10:00Z, effIndicator=}, ntmExpDate={value=3000-12-31T23:59:59Z, expIndicator=PERM}, ntmTxtContent=
+CVN RWY 12/30 CHANGED TO 5697FT X 100FT. DECLARED DIST:
+RWY 12 TORA 5697FT TODA 5697FT ASDA 5697FT LDA 5697FT. RWY 30 TORA
+5697FT TODA 5697FT ASDA 5697FT LDA 5697FT. 2108311510-PERM
+, runway={ntmRwy=[{"rwyId":"12","rwyAptId":"KCVN","rwyAction":"LIMITED","entityRef":"RWY-12-ASPH-KCVN-MRLL"},{"rwyId":"30","rwyAptId":"KCVN","rwyAction":"LIMITED","entityRef":"RWY-30-ASPH-KCVN-MRLL"}]}, ntmJeppStatusDate=2021-08-31T15:15:45Z, jeppNumber=2021085147C}}, reason: actual value does not contain expected

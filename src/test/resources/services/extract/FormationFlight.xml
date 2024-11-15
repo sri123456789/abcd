@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20191032718">
+        <NtmSource>UUUUYNYX</NtmSource>
+        <NtmNumber>P2805/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>UHHH</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-11-01T22:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-12-01T16:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WVLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>FORMATION FLIGHT WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EEU</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>UH</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>RUS</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>330</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>330</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="52.383333">N5223.0</GeoNtmLat>
+            <GeoNtmLong LongDd="138.066667">E13804.0</GeoNtmLong>
+            <GeoNtmRadius>75</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+01-30 2200-1600
+</NtmTxtSchedule>
+        <NtmTxtContent>
+TRAINING FLT WI 10KM EITHER SIDE OF LINE JOINING POINTS:
+511200N1372400E-533300N1384600E.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+FL330  
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+FL330
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+181156 UUUUYNYX
+(P2805/19 NOTAMN
+Q) UHHH/QWVLW/IV/M/W/330/330/5223N13804E075
+A) UHHH B) 1911012200 C) 1912011600
+D) 01-30 2200-1600
+E) TRAINING FLT WI 10KM EITHER SIDE OF LINE JOINING POINTS:
+511200N1372400E-533300N1384600E.
+F) FL330  G) FL330
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-18T11:56:55Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

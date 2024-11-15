@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<JeppesenNotam JeppNumber="NOTAMTEST" JeppNbrVersion="1" JeppBcstInd="A" JeppAction="N" JeppFormat="XML04">
+	<NtmSource>SKBOYNYX</NtmSource>
+	<NtmNumber>C1620/19</NtmNumber>
+	<NtmNotamType>D1</NtmNotamType>
+	<Fir>
+		<NtmFir>
+			<FirId>SKED</FirId>
+		</NtmFir>
+	</Fir>
+	<Airport>
+	  <NtmApt>
+	    <AptId>SKBO</AptId>
+	    <AptIdIata>BOG</AptIdIata>
+	    <AptLat>N04420576</AptLat>
+	    <AptLong>W074084900</AptLong>
+	    <AptDdLat>4.701600</AptDdLat>
+	    <AptDdLong>-74.146944</AptDdLong>
+	  </NtmApt>
+	</Airport>
+	<NtmEffDate EffIndicator="">2019-05-09T18:50:00Z</NtmEffDate>
+	<NtmExpDate ExpIndicator="PERM">3000-12-31T23:59:59Z</NtmExpDate>
+	<Qcode>
+		<NtmQcd>
+			<QcdId>OBAW</QcdId>
+			<QcdTraffic>IV</QcdTraffic>
+			<QcdPurpose>M</QcdPurpose>
+			<QcdScope>A</QcdScope>
+			<QcdDecode>OBSTACLE COMPLETELY WITHDRAWN</QcdDecode>
+		</NtmQcd>
+	</Qcode>
+	<NtmGeoRef>
+		<GeoNtmAreaCode>SAM</GeoNtmAreaCode>
+		<GeoNtmIcaoCode>SK</GeoNtmIcaoCode>
+		<GeoNtmCountryCode>COL</GeoNtmCountryCode>
+		<GeoNtmStateCode></GeoNtmStateCode>
+		<GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+		<GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+		<GeoNtmLat LatDd="42.000000">N4200.0</GeoNtmLat>
+		<GeoNtmLong LongDd="-105.000000">W10500.0</GeoNtmLong>
+		<GeoNtmRadius>5</GeoNtmRadius>
+	</NtmGeoRef>
+	<NtmTxtContent>
+<![CDATA[
+OBST QUE PENETREN LA VVS ELIMINADOS
+REF AD 2 SKBO IAC 8,9,10
+]]>
+	</NtmTxtContent>
+	<NtmSourceData>
+<![CDATA[
+----------------------
+NEW
+----------------------
+091900 SKBOYNYX
+(C1620/19 NOTAMN
+Q) SKED/QOBAW/IV/M/AE/000/999/9000N18000W005
+A) SKBO B) 1905091850 C) PERM
+E) OBST QUE PENETREN LA VVS ELIMINADOS
+REF AD 2 SKBO IAC 8,9,10
+)
+]]>
+	</NtmSourceData>
+	<NtmJeppStatusDate>2019-05-09T18:59:15Z</NtmJeppStatusDate>
+</JeppesenNotam>
+</NOTAMStream>

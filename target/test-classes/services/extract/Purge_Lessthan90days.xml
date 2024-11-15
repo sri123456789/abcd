@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="C" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="201110EE76WEA">
+        <NtmSource>OTNOYNYX</NtmSource>
+        <NtmNumber>G0030/20</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>OBBB</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>OTBD</AptId>
+                <AptIdIata>DIA</AptIdIata>
+                <AptLat>N25153981</AptLat>
+                <AptLong>E051335434</AptLong>
+                <AptDdLat>25.261058</AptDdLat>
+                <AptDdLong>51.565094</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-01-07T03:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2020-04-07T15:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WULW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>UNMANNED AIRCRAFT WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>MES</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>OT</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>QAT</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="25.016667">N2501.0</GeoNtmLat>
+            <GeoNtmLong LongDd="51.633333">E05138.0</GeoNtmLong>
+            <GeoNtmRadius>3</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+0300-1500
+</NtmTxtSchedule>
+        <NtmTxtContent>
+REMOTELY PILOTED ACFT SYSTEM (RPAS) ACTIVITY WILL TAKE PLACE WI AN
+AREA BOUNDED BY THE FLW COORD (HAMAD PORT):
+245931.04N 0513553.93E-250210.48N 0513509.42E-
+250302.00N 0513906.15E-250028.10N 0513954.45E-
+245931.04N 0513553.93E.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+400FT AGL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+061246 EUECYIYN
+(G0030/20 NOTAMN
+Q) OBBB/QWULW/IV/BO /AW/000/004/2501N05138E003
+A) OTBD B) 2001070300 C) 2001281500
+D) 0300-1500
+E) REMOTELY PILOTED ACFT SYSTEM (RPAS) ACTIVITY WILL TAKE PLACE WI AN
+AREA BOUNDED BY THE FLW COORD (HAMAD PORT):
+245931.04N 0513553.93E-250210.48N 0513509.42E-
+250302.00N 0513906.15E-250028.10N 0513954.45E-
+245931.04N 0513553.93E.
+F) SFC G) 400FT AGL)
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>03:00:00</startTime>
+                <endTime>15:00:00</endTime>
+                <startDay>07</startDay>
+                <endDay>28</endDay>
+                <startMonth>01</startMonth>
+                <endMonth>01</endMonth>
+                <startYear>2020</startYear>
+                <endYear>2020</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmSpatial>
+            <ElevatedSurface id="POLYGON_01" srsName="urn:ogc:def:crs:EPSG::4326">
+                <patches>
+                    <PolygonPatch>
+                        <exterior>
+                            <LinearRing>
+                                <posList>24.983333 51.583333 25.033333 51.583333 25.050000 51.650000 25.000000 51.650000 24.983333 51.583333</posList>
+                            </LinearRing>
+                        </exterior>
+                    </PolygonPatch>
+                </patches>
+            </ElevatedSurface>
+        </NtmSpatial>
+        <NtmJeppStatusDate>2019-01-06T12:47:19Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2021085147C">
+        <NtmSource>CVN</NtmSource>
+        <NtmNumber>08/013</NtmNumber>
+        <NtmNotamType>UD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZAB</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>KCVN</AptId>
+                <AptIdIata>CVN</AptIdIata>
+                <AptLat>N34253572</AptLat>
+                <AptLong>W103043929</AptLong>
+                <AptDdLat>34.426589</AptDdLat>
+                <AptDdLong>-103.077581</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2021-08-31T15:10:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="PERM">3000-12-31T23:59:59Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>MRLL</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>NBO</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>RUNWAY USEABLE FOR LENGTH OR WIDTH OF</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K2</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>NM</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="34.426589">N3425.6</GeoNtmLat>
+            <GeoNtmLong LongDd="-103.077581">W10304.7</GeoNtmLong>
+            <GeoNtmRadius>0</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+CVN RWY 12/30 CHANGED TO 5697FT X 100FT. DECLARED DIST:
+RWY 12 TORA 5697FT TODA 5697FT ASDA 5697FT LDA 5697FT. RWY 30 TORA
+5697FT TODA 5697FT ASDA 5697FT LDA 5697FT. 2108311510-PERM
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+UDFNSPARSER CVN
+!CVN 08/013 CVN RWY 12/30 CHANGED TO 5697FT X 100FT. DECLARED DIST:
+RWY 12 TORA 5697FT TODA 5697FT ASDA 5697FT LDA 5697FT. RWY 30 TORA
+5697FT TODA 5697FT ASDA 5697FT LDA 5697FT. 2108311510-PERM
+</NtmSourceData>
+        <Runway>
+            <NtmRwy>
+                <RwyId>12</RwyId>
+                <RwyAptId>KCVN</RwyAptId>
+                <RwySfc>ASPH</RwySfc>
+                <RwyAction>LIMITED</RwyAction>
+                <entityRef>RWY-12-ASPH-KCVN-MRLL</entityRef>
+            </NtmRwy>
+            <NtmRwy>
+                <RwyId>30</RwyId>
+                <RwyAptId>KCVN</RwyAptId>
+                <RwySfc>ASPH</RwySfc>
+                <RwyAction>LIMITED</RwyAction>
+                <entityRef>RWY-30-ASPH-KCVN-MRLL</entityRef>
+            </NtmRwy>
+        </Runway>
+        <NtmJeppStatusDate>2021-08-31T15:15:45Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

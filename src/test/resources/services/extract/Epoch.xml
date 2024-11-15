@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="201911432B6">
+        <NtmSource>LEANYNYX</NtmSource>
+        <NtmNumber>D4036/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LECM</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">3000-12-31T00:59:59Z </NtmEffDate>
+        <NtmExpDate ExpIndicator="">3000-12-31T23:59:59Z </NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>RACA</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>NBO</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>AIRSPACE RESERVATION ACTIVATED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LE</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>ESP</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>080</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="38.566667">N3834.0</GeoNtmLat>
+            <GeoNtmLong LongDd="-2.666667">W00240.0</GeoNtmLong>
+            <GeoNtmRadius>68</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+0800-1400
+</NtmTxtSchedule>
+        <NtmTxtContent>
+AIRSPACE RESERVATION ACTIVATED FOR EXERCISE 'TAUREX'
+WI 393000N 0024800W, 393000N 0015000W, 390300N 0012400W,
+382500N 0022600W, 373800N 0032800W, 380800N 0033000W,
+392300N 0025400W EXC LEAB ATZ/CTR AND TSA30
+(LATERAL LIMITS COINCIDENTAL WITH LED98)
+ALBACETE/LA MANCHA
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+FL080
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+210911 LEANYNYX
+(D4036/19 NOTAMN
+Q) LECM/QRACA/IV/NBO/W /000/080/3834N00240W068
+A) LECM B) 1911270800 C) 1911281400
+D) 0800-1400
+E) AIRSPACE RESERVATION ACTIVATED FOR EXERCISE 'TAUREX'
+WI 393000N 0024800W, 393000N 0015000W, 390300N 0012400W,
+382500N 0022600W, 373800N 0032800W, 380800N 0033000W,
+392300N 0025400W EXC LEAB ATZ/CTR AND TSA30
+(LATERAL LIMITS COINCIDENTAL WITH LED98)
+ALBACETE/LA MANCHA
+F) SFC G) FL080
+)
+
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>08:00:00</startTime>
+                <endTime>14:00:00</endTime>
+                <startDay>27</startDay>
+                <endDay>28</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmJeppStatusDate>2019-11-21T09:13:00Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

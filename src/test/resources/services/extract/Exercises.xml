@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019021DE02">
+        <NtmSource>KDZZNAXX</NtmSource>
+        <NtmNumber>A0046/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZNY</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-02-13T01:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2026-12-31T23:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WELW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>EXERCISES WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K6</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>NY</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>360</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="40.821667">N4049.3</GeoNtmLat>
+            <GeoNtmLong LongDd="-73.948889">W07356.9</GeoNtmLong>
+            <GeoNtmRadius>4</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+LASER RESEARCH WI AN AREA
+DEFINED AS 404917N0735653W OR THE LAGURDIA /LGA/ VORTAC 316 DEG
+RADIAL AT 4NM SFC-FL360 AT AN ANGLE OF 90 DEGREES FROM THE SFC,
+PROJECTING UP TO FL360 AVOID AIRBORNE HAZARD BY 5NM. THIS BEAM IS
+INJURIOUS TO PILOTS'/AIRCREWS' AND PASSENGERS EYES. LA GUARDIA
+/LGA/
+ATCT, TELEPHONE 781-779-7901 IS THE FAA CDN FACILITY
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+121857 KDZZNAXX
+(A0046/19 NOTAMN
+Q) KZNY/QXXXX////000/999/
+A) KZNY
+B) 1902130100
+C) 2012312359
+E) LASER RESEARCH WI AN AREA
+DEFINED AS 404917N0735653W OR THE LAGURDIA /LGA/ VORTAC 316 DEG
+RADIAL AT 4NM SFC-FL360 AT AN ANGLE OF 90 DEGREES FROM THE SFC,
+PROJECTING UP TO FL360 AVOID AIRBORNE HAZARD BY 5NM. THIS BEAM IS
+INJURIOUS TO PILOTS'/AIRCREWS' AND PASSENGERS EYES. LA GUARDIA /LGA/
+ATCT, TELEPHONE 781-779-7901 IS THE FAA CDN FACILITY
+F) SEE TEXT
+G) SEE TEXT
+)
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-02-12T19:01:26Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

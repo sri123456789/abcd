@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<JeppesenNotam JeppNumber="20220131ED8" JeppNbrVersion="1" JeppBcstInd="A" JeppAction="N" JeppFormat="XML04">
+	<NtmSource>RKRRYNYX</NtmSource>
+	<NtmNumber>C0127/22</NtmNumber>
+	<NtmNotamType>C1</NtmNotamType>
+	<Fir>
+	  <NtmFir>
+	    <FirId>RKRR</FirId>
+	  </NtmFir>
+	</Fir>
+	<Airport>
+	  <NtmApt>
+	    <AptId>RKJJ</AptId>
+	    <AptIdIata>KWJ</AptIdIata>
+	    <AptLat>N35073500</AptLat>
+	    <AptLong>E126483200</AptLong>
+	    <AptDdLat>35.126389</AptDdLat>
+	    <AptDdLong>126.808889</AptDdLong>
+	  </NtmApt>
+	</Airport>
+	<NtmEffDate EffIndicator="">2022-01-16T15:00:00Z</NtmEffDate>
+	<NtmExpDate ExpIndicator="">2027-02-28T15:00:00Z</NtmExpDate>
+	<Qcode>
+	  <NtmQcd>
+	    <QcdId>MRLC</QcdId>
+	    <QcdTraffic>IV</QcdTraffic>
+	    <QcdPurpose>NBO</QcdPurpose>
+	    <QcdScope>A</QcdScope>
+	    <QcdDecode>RUNWAY CLOSED</QcdDecode>
+	  </NtmQcd>
+	</Qcode>
+	<NtmGeoRef>
+	  <GeoNtmAreaCode>PAC</GeoNtmAreaCode>
+	  <GeoNtmIcaoCode>RK</GeoNtmIcaoCode>
+	  <GeoNtmCountryCode>KOR</GeoNtmCountryCode>
+	  <GeoNtmStateCode/>
+	  <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+	  <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+	  <GeoNtmLat LatDd="35.126389">N3507.6</GeoNtmLat>
+	  <GeoNtmLong LongDd="126.808889">E12648.5</GeoNtmLong>
+	  <GeoNtmRadius>5</GeoNtmRadius>
+	</NtmGeoRef>
+	<NtmTxtContent>
+<![CDATA[
+RWY 04L/22R CLOSED DUE TO WORK IN PROGRESS
+]]>
+	</NtmTxtContent>
+	<NtmSourceData>
+<![CDATA[
+----------------------
+NEW
+----------------------
+110358 RKRRYNYX
+(C0127/22 NOTAMN  
+Q) RKRR/QMRLC/IV/NBO/A/000/999/3508N12649E005
+A) RKJJ B) 2201161500 C) 2202281500
+E) RWY 04L/22R CLSD DUE TO WIP
+)
+
+]]>
+	</NtmSourceData>
+	<Runway>
+	  <NtmRwy>
+	    <RwyId>04L</RwyId>
+	    <RwyAptId>RKJJ</RwyAptId>
+	    <RwySfc>CONC</RwySfc>
+	    <RwyAction>CLOSED</RwyAction>
+	    <entityRef>RWY-04L-CONC-RKJJ-MRLC</entityRef>
+	  </NtmRwy>
+	  <NtmRwy>
+	    <RwyId>22R</RwyId>
+	    <RwyAptId>RKJJ</RwyAptId>
+	    <RwySfc>CONC</RwySfc>
+	    <RwyAction>CLOSED</RwyAction>
+	    <entityRef>RWY-22R-CONC-RKJJ-MRLC</entityRef>
+	  </NtmRwy>
+	</Runway>
+	<NtmJeppStatusDate>2022-01-11T03:58:19Z</NtmJeppStatusDate>
+</JeppesenNotam>
+</NOTAMStream>

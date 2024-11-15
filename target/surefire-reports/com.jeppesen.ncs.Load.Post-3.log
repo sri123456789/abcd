@@ -1,0 +1,3 @@
+13:50:52.108 karate.env system property was: test 
+13:50:52.108 karate Environment is:  test 
+13:50:52.431 assertion failed: path: $, actual: {timestamp=2024-11-01T19:50:52.494+00:00, status=400, error=Bad Request, message=Invalid startDateTime: Text '201-01-20T15:00:00Z' could not be parsed at index 0, path=/notam/v2/restrictedAreaNotams}, expected: 'Invalid startDateTime:', reason: actual value is not a string

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019111BF96">
+        <NtmSource>RJAAYNYX</NtmSource>
+        <NtmNumber>J5468/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>RJJJ</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-11-09T18:14:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2026-12-10T00:15:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WWXX</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose/>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>SIGNIFICANT VOLCANIC ACTIVITY  </QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>PAC</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>RJ</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>JPN</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>060</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="32.884444">N3253.1</GeoNtmLat>
+            <GeoNtmLong LongDd="131.103889">E13106.2</GeoNtmLong>
+            <GeoNtmRadius>25</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+VOLCANIC ACTIVITY INFO
+ASOSAN PSN/325304N1310614E(REF AIP ENR5.3-23)
+VA CLD OBS AT 1800
+FL060 MOV S
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+FL060
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+091814 RJAAYNYX
+(J5468/19 NOTAMR J5465/19
+Q) RJJJ/QWWXX/IV/NBO/EW/000/060/3253N13106E120
+A) RJJJ B) 1911091814 C) 1911100015
+E) VOLCANIC ACTIVITY INFO
+ASOSAN PSN/325304N1310614E(REF AIP ENR5.3-23)
+VA CLD OBS AT 1800
+FL060 MOV S
+F) SFC G) FL060
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-11-09T18:15:24Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

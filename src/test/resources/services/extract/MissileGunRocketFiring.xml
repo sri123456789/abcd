@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019103C3DF">
+        <NtmSource>EGGNYNYX</NtmSource>
+        <NtmNumber>H6929/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>EGTT</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-10-30T13:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2026-12-29T17:10:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WMLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>MISSILE GUN OR ROCKET FIRING WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>EG</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>GBR</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>011</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="52.350000">N5221.0</GeoNtmLat>
+            <GeoNtmLong LongDd="0.100000">E00006.0</GeoNtmLong>
+            <GeoNtmRadius>1</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+1300-SS PLUS30
+</NtmTxtSchedule>
+        <NtmTxtContent>
+KITE FLYING WI 0.25NM RADIUS 522112N 0000555E (HADDENHAM,
+CAMBRIDGESHIRE). MAX HGT 1000FT AGL. FOR INFO 07710802009.
+2019-09-0624/AS2
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+1100FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+221359 EGGNYNYX
+(H6929/19 NOTAMN
+Q) EGTT/QWMLW/IV/BO /W /000/011/5221N00006E001
+A) EGTT B) 1910301300 C) 2001291710
+D) 1300-SS PLUS30
+E) KITE FLYING WI 0.25NM RADIUS 522112N 0000555E (HADDENHAM,
+CAMBRIDGESHIRE). MAX HGT 1000FT AGL. FOR INFO 07710802009.
+2019-09-0624/AS2
+F) SFC G) 1100FT AMSL
+)
+
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>13:00:00</startTime>
+                <endEvent>SS</endEvent>
+                <endTimeRelativeEvent UOM="MIN">30</endTimeRelativeEvent>
+                <startDay>30</startDay>
+                <endDay>29</endDay>
+                <startMonth>10</startMonth>
+                <endMonth>01</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2020</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmJeppStatusDate>2019-10-22T14:00:20Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

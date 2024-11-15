@@ -1,0 +1,3 @@
+13:50:53.023 karate.env system property was: test 
+13:50:53.024 karate Environment is:  test 
+13:50:53.333 assertion failed: path: $, actual: {timestamp=2024-11-01T19:50:53.398+00:00, status=400, error=Bad Request, message=Invalid geometry: {"type":"GeometryCollection","geometries":[{"type":"Line","coordinates":[[127.366667,36.433333],[127.366667,36.439993]]}]}, path=/notam/v2/restrictedAreaNotams}, expected: 'Invalid geometry: {"type":"GeometryCollection","geometries":[{"type":"Line","coordinates":[[127.366667,36.433333],[127.366667,36.439993]]}]}', reason: actual value is not a string

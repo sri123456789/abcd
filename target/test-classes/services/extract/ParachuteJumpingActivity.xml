@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019111BD96">
+        <NtmSource>SAN</NtmSource>
+        <NtmNumber>11/065</NtmNumber>
+        <NtmNotamType>UD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZLA</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>KSAN</AptId>
+                <AptIdIata>SAN</AptIdIata>
+                <AptLat>N32440080</AptLat>
+                <AptLong>W117112280</AptLong>
+                <AptDdLat>32.733556</AptDdLat>
+                <AptDdLong>-117.189667</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-11-09T22:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-12-09T23:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WPLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>PARACHUTE JUMPING EXERCISE WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K2</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>CA</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>070</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="32.733556">N3244.0</GeoNtmLat>
+            <GeoNtmLong LongDd="-117.189667">W11711.4</GeoNtmLong>
+            <GeoNtmRadius>1</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+SAN AIRSPACE PARACHUTE JUMPING EXERCISES WI AN AREA DEFINED AS
+1.5NM RADIUS OF
+SAN261001 (1NM E SAN) SFC-7000FT 1911092200-1911092300
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+UDAIDAPPARSER SAN
+!SAN 11/065 SAN AIRSPACE PJE WI AN AREA DEFINED AS 1.5NM RADIUS OF 
+SAN261001 (1NM E SAN) SFC-7000FT 1911092200-1911092300
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-11-09T17:14:15Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20190604FFF">
+        <NtmSource>SBRJYNYX</NtmSource>
+        <NtmNumber>Z0465/19</NtmNumber>
+        <NtmNotamType>D1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>SBCW</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-06-20T00:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="PERM">3000-12-31T23:59:59Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>RRCA</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>RESTRICTED AREA ACTIVATED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>SAM</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>SB</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>BRA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>045</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="-25.100000">S2506.0</GeoNtmLat>
+            <GeoNtmLong LongDd="-49.166667">W04910.0</GeoNtmLong>
+            <GeoNtmRadius>3</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+SBR 592 (SANTANA BAIXO) ACT:
+1- BDRY LATERAIS: 25 08 02 S 049 12 32 W/ 25 06 48 S 049 12 38
+W/ 25 05 05 S 049 11 03 W / 25 05 32 S 049 09 19 W
+2- BDRY VERTICAIS: GND - 4500FT AMSL
+3- CARATER: PERMANENTE SOB VMC: ATIVADA DE 1400UTC AS 2100UTC
+4- TIPO DE RESTRIAO: VOOS DE PARAPENTE DO CLUBE DA CORDILHEIRA
+DO SANTANA
+REF: ENRC L1
+ARC CURITIBA / FLORIANOPOLIS.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+GND 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+4500FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+031836 SBRJYNYX
+(Z0465/19 NOTAMR Z0463/19
+Q) SBCW/QRRCA/IV/BO/W/000/045/2506S04910W003
+A) SBCW
+B) 1906200000 C) PERM
+E) SBR 592 (SANTANA BAIXO) ACT:
+1- BDRY LATERAIS: 25 08 02 S 049 12 32 W/ 25 06 48 S 049 12 38 W/ 25 
+05 05 S 049 11 03 W / 25 05 32 S 049 09 19 W
+2- BDRY VERTICAIS: GND - 4500FT AMSL
+3- CARATER: PERMANENTE SOB VMC: ATIVADA DE 1400UTC AS 2100UTC
+4- TIPO DE RESTRI?AO: VOOS DE PARAPENTE DO CLUBE DA CORDILHEIRA DO SA
+NTANA
+REF: ENRC L1
+ARC CURITIBA / FLORIANOPOLIS
+F) GND G) 4500FT AMSL)
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-06-03T18:41:14Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">20190604B4B</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

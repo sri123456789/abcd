@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20191059C90">
+        <NtmSource>EKCHYNYX</NtmSource>
+        <NtmNumber>D1367/19</NtmNumber>
+        <NtmNotamType>CN</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>EGPX</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>EKTE</AptId>
+                <AptIdIata/>
+                <AptLat>N55431748</AptLat>
+                <AptLong>E004480748</AptLong>
+                <AptDdLat>55.721522</AptDdLat>
+                <AptDdLong>4.802078</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-10-31T12:16:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="EST">2024-12-31T12:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WSLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>BURNING OR BLOWING GAS WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>EK</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>DNK</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>030</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="55.716667">N5543.0</GeoNtmLat>
+            <GeoNtmLong LongDd="4.800000">E00448.0</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+COLD FLARING AT EKTE WILL TAKE PLACE.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+3000FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+311219 EKCHYNYX
+(D1367/19 NOTAMR D1285/19
+Q) EGPX/QWSLW/IV/M  /AW/000/030/5543N00448E005
+A) EKTE B) 1910311216 C) 2001311200 EST
+E) COLD FLARING AT EKTE WILL TAKE PLACE.
+F) SFC G) 3000FT AMSL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-31T12:20:05Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">201910131EB</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

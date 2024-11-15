@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.jeppesen.com/xml/JeppesenNOTAM_DEV2.xsd">
+	<JeppesenNotam JeppNumber="20190536F58" JeppNbrVersion="1" JeppBcstInd="F" JeppAction="N" JeppFormat="XML02">
+		<NtmSource>SUAE</NtmSource>
+		<NtmNumber>05/587</NtmNumber>
+		<NtmNotamType>UD</NtmNotamType>
+		<Fir>
+			<NtmFir>
+				<FirId>KZME</FirId>
+			</NtmFir>
+		</Fir>
+		<NtmEffDate EffIndicator="">2019-05-21T00:52:00Z</NtmEffDate>
+		<NtmExpDate ExpIndicator="">2019-05-21T01:10:00Z</NtmExpDate>
+		<Qcode>
+			<NtmQcd>
+				<QcdId>RMCA</QcdId>
+				<QcdTraffic>IV</QcdTraffic>
+				<QcdPurpose>BO</QcdPurpose>
+				<QcdScope>E</QcdScope>
+				<QcdDecode>MILITARY OPERATING AREA ACTIVATED</QcdDecode>
+			</NtmQcd>
+		</Qcode>
+		<NtmGeoRef>
+			<GeoNtmAreaCode>USA</GeoNtmAreaCode>
+			<GeoNtmIcaoCode>K7</GeoNtmIcaoCode>
+			<GeoNtmCountryCode>USA</GeoNtmCountryCode>
+			<GeoNtmStateCode>MS</GeoNtmStateCode>
+			<GeoNtmLowerLimit>080</GeoNtmLowerLimit>
+			<GeoNtmUpperLimit>180</GeoNtmUpperLimit>
+			<GeoNtmLat/>
+			<GeoNtmLong/>
+			<GeoNtmRadius>0</GeoNtmRadius>
+		</NtmGeoRef>
+		<NtmTxtContent><![CDATA[ZME AIRSPACE COLUMBUS 2 MOA ACT 8000FT UP TO BUT NOTINCLUDING FL180 1905210052-1905210110]]></NtmTxtContent>
+		<NtmSourceData><![CDATA[----------------------NEW----------------------UDAIDAPPARSER ZME!SUAE 05/587 ZME AIRSPACE COLUMBUS 2 MOA ACT 8000FT UP TO BUT NOTINCLUDING FL180 1905210052-1905210110]]></NtmSourceData>
+		<Airspace>
+			<NtmAsp>
+				<AspId>COLUMBUS 2</AspId>
+				<AspType>MOA</AspType>
+				<AspMultiCd/>
+				<AspIcaoCd>K7</AspIcaoCd>
+			</NtmAsp>
+		</Airspace>
+		<NtmJeppStatusDate>2019-05-20T18:58:54Z</NtmJeppStatusDate>
+	</JeppesenNotam>
+</NOTAMStream>

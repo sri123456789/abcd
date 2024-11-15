@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.jeppesen.com/xml/JeppesenNOTAM_PROD2.xsd">
+<JeppesenNotam JeppNumber="20170426F2A" JeppNbrVersion="1" JeppBcstInd="F" JeppAction="N" JeppFormat="XML02">
+	<NtmSource>CANADIAN</NtmSource>
+	<NtmNumber>170151</NtmNumber>
+	<NtmNotamType>CD</NtmNotamType>
+	<Fir>
+		<NtmFir>
+			<FirId>CZYZ</FirId>
+		</NtmFir>
+	</Fir>
+	<NtmEffDate EffIndicator="WIE">2017-04-28T13:02:49Z</NtmEffDate>
+	<NtmExpDate ExpIndicator="UFN">3000-12-31T23:59:59Z</NtmExpDate>
+	<Qcode>
+		<NtmQcd>
+			<QcdId>WHLW</QcdId>
+			<QcdTraffic>IV</QcdTraffic>
+			<QcdPurpose>M</QcdPurpose>
+			<QcdScope>A</QcdScope>
+			<QcdDecode>BLASTING WILL TAKE PLACE</QcdDecode>
+		</NtmQcd>
+	</Qcode>
+	<NtmGeoRef>
+		<GeoNtmAreaCode>CAN</GeoNtmAreaCode>
+		<GeoNtmIcaoCode>CY</GeoNtmIcaoCode>
+		<GeoNtmCountryCode>CAN</GeoNtmCountryCode>
+		<GeoNtmStateCode>QC</GeoNtmStateCode>
+		<GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+		<GeoNtmUpperLimit>043</GeoNtmUpperLimit>
+		<GeoNtmLat LatDd="49.575000">N4934.5</GeoNtmLat>
+		<GeoNtmLong LongDd="-79.255000">W07915.3</GeoNtmLong>
+		<GeoNtmRadius>2</GeoNtmRadius>
+	</NtmGeoRef>
+	<NtmTxtContent>
+<![CDATA[
+CZYZ AMEND PUB: BLASTING ACT RADIUS 1.9 NM CENTRE 493429N 791520W
+(APRX 40 NM N LA SARRE AD) SFC TO 3281 FT AGL 4212 MSL.
+]]>
+	</NtmTxtContent>
+	<NtmSourceData>
+<![CDATA[
+----------------------
+NEW
+----------------------
+281300 CYXUYFYX
+170151 NOTAMN CZYZ TORONTO FIR
+CZYZ AMEND PUB: BLASTING ACT RADIUS 1.9 NM CENTRE 493429N 791520W
+(APRX 40 NM N LA SARRE AD) SFC TO 3281 FT AGL 4212 MSL	
+]]>
+	</NtmSourceData>
+	<NtmJeppStatusDate>2017-04-28T13:01:09Z</NtmJeppStatusDate>
+</JeppesenNotam>
+</NOTAMStream>

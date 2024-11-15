@@ -1,0 +1,3 @@
+13:50:52.736 karate.env system property was: test 
+13:50:52.736 karate Environment is:  test 
+13:50:53.017 assertion failed: path: $, actual: {timestamp=2024-11-01T19:50:53.079+00:00, status=400, error=Bad Request, message=Q-Code, ZZA, is not supported by this query., path=/notam/v2/restrictedAreaNotams}, expected: 'Q-Code, ZZA, is not supported by this query.', reason: actual value is not a string

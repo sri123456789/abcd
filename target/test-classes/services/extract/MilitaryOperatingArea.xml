@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019110B030">
+        <NtmSource>LIIAYNYX</NtmSource>
+        <NtmNumber>W3063/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LIRR</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-11-05T08:08:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-12-19T22:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>RMCA</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>BO</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>MILITARY OPERATING AREA ACTIVATED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LI</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>ITA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>060</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="42.433333">N4226.0</GeoNtmLat>
+            <GeoNtmLong LongDd="13.416667">E01325.0</GeoNtmLong>
+            <GeoNtmRadius>3</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+NOV 05 0808-2000, 06 12 13 19 26 27 DEC 03 05 09-11 18 AND 19
+0700-
+2200
+</NtmTxtSchedule>
+        <NtmTxtContent>
+MILITARY FIRING AREA /MONTE STABIATA - NNE L'AQUILA/ ACTIVATED
+REF AIP ENR 5.2.1.3-2.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+6000FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+050808 LIIAYNYX
+(W3063/19 NOTAMR W2747/19
+Q) LIRR/QRMCA/IV/BO/W/000/060/4226N01325E003
+A) LIRR B) 1911050808 C) 1912192200
+D) NOV 05 0808-2000, 06 12 13 19 26 27 DEC 03 05 09-11 18 AND 19
+0700-
+2200
+E) MILITARY FIRING AREA /MONTE STABIATA - NNE L'AQUILA/ ACTIVATED
+REF AIP ENR 5.2.1.3-2
+F) SFC
+G) 6000FT AMSL
+)
+
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>08:08:00</startTime>
+                <endTime>20:00:00</endTime>
+                <startDay>05</startDay>
+                <endDay>05</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>19</startDay>
+                <endDay>19</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>06</startDay>
+                <endDay>06</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>12</startDay>
+                <endDay>13</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>26</startDay>
+                <endDay>27</endDay>
+                <startMonth>11</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>03</startDay>
+                <endDay>03</endDay>
+                <startMonth>12</startMonth>
+                <endMonth>12</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>05</startDay>
+                <endDay>05</endDay>
+                <startMonth>12</startMonth>
+                <endMonth>12</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>09</startDay>
+                <endDay>11</endDay>
+                <startMonth>12</startMonth>
+                <endMonth>12</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>07:00:00</startTime>
+                <endTime>22:00:00</endTime>
+                <startDay>18</startDay>
+                <endDay>19</endDay>
+                <startMonth>12</startMonth>
+                <endMonth>12</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+                <schedRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </schedRef>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmSpatial>
+            <ElevatedSurface id="ASP-MONTE STA*-MOA--LI" srsName="urn:ogc:def:crs:EPSG::4326">
+                <patches>
+                    <PolygonPatch>
+                        <exterior>
+                            <LinearRing>
+                                <posList>42.46666666666667 13.400000000000006 42.46333404975326 13.396666540239607 42.461667404157765 13.394999557505344 42.46000075856227 13.393332743340466 42.458333944397395 13.39166592917556 42.456667298801904 13.389999283580067 42.455000484637 13.388332637984576 42.45333367047212 13.386666160958498 42.45166685630724 13.384999683932392 42.450000042142335 13.383333375475672 42.443334639746126 13.390002317829158 42.44000151712456 13.393336620436514 42.436668225933545 13.396670417335685 42.43333493474256 13.40000404566544 42.43000147498219 13.403337336856424 42.426667846652435 13.40667012233925 42.42333421832265 13.410002739252661 42.42000058999287 13.413334850457886 42.41666662452431 13.41666662452431 42.4133340076109 13.41666662452431 42.41166736201541 13.41666662452431 42.41000054785053 13.41666662452431 42.40833373368565 13.41666662452431 42.40666708809016 13.41666662452431 42.40500027392525 13.41666662452431 42.403333459760375 13.41666662452431 42.401666814164884 13.41666662452431 42.400000000000006 13.41666662452431 42.40666793093712 13.426661778154255 42.410001896405674 13.431660534954972 42.413335693304845 13.436659797463875 42.416669153065214 13.441659565680965 42.4200024442562 13.446660008175627 42.42333539830841 13.451660787809061 42.42666835236059 13.456662241720096 42.430000969274005 13.461664201339289 42.43333341761803 13.466666666666669 42.44000269711029 13.4533397389703 42.443336999717644 13.446674842282249 42.4466709651862 13.440009102747268 42.450004593515985 13.433342688934687 42.45333788470697 13.426675600844533 42.456670670189766 13.42000766990742 42.46000294996438 13.413339233262121 42.46333506116963 13.406669953769836 42.46666666666667 13.400000000000006</posList>
+                            </LinearRing>
+                        </exterior>
+                    </PolygonPatch>
+                </patches>
+                <SpatRef>
+                    <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+                </SpatRef>
+            </ElevatedSurface>
+        </NtmSpatial>
+        <Airspace>
+            <NtmAsp>
+                <AspId>MONTE STA*</AspId>
+                <AspType>MOA</AspType>
+                <AspMultiCd/>
+                <AspIcaoCd>LI</AspIcaoCd>
+                <entityRef>ASP-MONTE STA*-MOA--LI</entityRef>
+            </NtmAsp>
+        </Airspace>
+        <NtmJeppStatusDate>2019-11-05T08:09:19Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">2019100013A</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

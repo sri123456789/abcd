@@ -1,0 +1,7 @@
+13:50:47.469 karate.env system property was: test 
+13:50:47.469 karate Environment is:  test 
+13:50:47.746 assertion failed: path: $[*], actual: [], expected: {type=FeatureCollection, features=[{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.168333,40.691667]},"properties":{"lower_alt_msl_ft":0,"upper_alt_msl_ft":99999}}], notamProperties={ntmNumber=157/97/A/16, ntmNotamType=NF, fir={ntmFir=[{"firId":"KZNY"}]}, airport={ntmApt=[{"aptId":"KEWR","aptIdIata":"EWR"}]}, ntmEffDate={value=2016-03-14T20:01:07Z, effIndicator=}, ntmExpDate={value=2028-12-31T23:59:59Z, expIndicator=}, qcode={ntmQcd=[{"qcdId":"WJLW","qcdDecode":"BANNER OR TARGET TOWING WILL TAKE PLACE"}]}, ntmTxtContent=
+EWR PARA-SAIL AND BANNER TOWING OPERATIONS 1000FT AND BELOW IN
+UPPER AND LOWER  NEW YORK BAYS INCLUDING ROCKAWAY INLET
+INDEFINITELY.
+, ntmJeppStatusDate=2015-04-02T14:52:17Z, jeppNumber=19970814387}}, reason: actual value does not contain expected

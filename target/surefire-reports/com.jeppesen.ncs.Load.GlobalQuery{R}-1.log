@@ -1,0 +1,5 @@
+13:50:50.190 karate.env system property was: test 
+13:50:50.190 karate Environment is:  test 
+13:50:50.202 >> lock acquired, begin callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:50:50.227 << lock released, cached callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:50:50.746 status code was: 400, expected: 200, response time: 508, url: https://ncs-load-ta-wus.azurewebsites.net/restrictedAreaNotams?geometry=%7B%22type%22%3A%22GeometryCollection%22%2C%22geometries%22%3A%5B%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B-372.30468749999994%2C27.68352808378776%5D%2C%5B-371.77734374999994%2C-31.802892586706747%5D%2C%5B-204.609375%2C-33.137551192346145%5D%2C%5B-268.06640625%2C71.30079291637452%5D%2C%5B-372.30468749999994%2C27.68352808378776%5D%5D%5D%7D%5D%7D&startDateTime=2018-02-20T15%3A00%3A00Z&endDateTime=2019-09-19T15%3A00%3A00Z&minAltitude=0&maxAltitude=999, response: {"timestamp":"01-11-2024 07:50:50","status":400,"error":"Bad Request","message":"geopolygon parameter is missing","path":"/restrictedAreaNotams"}

@@ -1,0 +1,3 @@
+13:42:42.729 karate.env system property was: test 
+13:42:42.730 karate Environment is:  test 
+13:38:00.803 status code was: 401, expected: 200, response time: 295, url: https://ncs-load-ta-wus.azurewebsites.net/v1/runwayConditions?airportId=LFRH&startDateTime=2019-02-20T15%3A00%3A00Z&endDateTime=2020-09-19T15%3A00%3A00Z&runwayIds=14&runwayConditions=caution, response: {"code":401,"message":"Full authentication is required to access this resource"}

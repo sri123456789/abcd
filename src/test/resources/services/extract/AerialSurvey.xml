@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="2" JeppNumber="2019092907E">
+        <NtmSource>RPLLYNYX</NtmSource>
+        <NtmNumber>B4186/19</NtmNumber>
+        <NtmNotamType>CN</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>RPHI</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>RPMD</AptId>
+                <AptIdIata>DVO</AptIdIata>
+                <AptLat>N07073188</AptLat>
+                <AptLong>E125384480</AptLong>
+                <AptDdLat>7.125522</AptDdLat>
+                <AptDdLong>125.645778</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-10-01T22:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2028-11-30T10:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WYLW</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose/>
+                <QcdScope/>
+                <QcdDecode>AERIAL SURVEY WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>PAC</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>RP</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>PHL</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="7.133333">N0708.0</GeoNtmLat>
+            <GeoNtmLong LongDd="125.650000">E12539.0</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+2200-1000
+</NtmTxtSchedule>
+        <NtmTxtContent>
+SPECIAL OPS (AERIAL SURVEY) WILL TAKE PLACE WI:
+07 11 26.22N 125 21 45.67E - 07 13 03.23N 125 22 40.41E -
+07 14 07.10N 125 24 29.37E - 07 11 23.30N 125 27 42.32E -
+07 11 07.73N 125 34 28.67E - 07 09 56.82N 125 35 00.55E -
+07 12 25.40N 125 37 06.65E - 07 12 15.94N 125 37 22.51E -
+07 08 40.55N 125 35 58.07E - 07 09 34.61N 125 35 10.01E -
+07 06 29.30N 125 36 26.65E - 07 06 11.43N 125 35 55.76E -
+07 10 28.18N 125 34 07.31E - 07 10 44.45N 125 29 05.40E -
+07 08 39.02N 125 29 22.19E - 07 05 41.31N 125 30 03.62E -
+07 05 25.73N 125 29 43.27E - 07 13 30.12N 125 24 24.82E -
+07 12 42.28N 125 22 59.50E - 07 11 14.13N 125 22 01.89E -
+07 11 26.22N 125 21 45.67E (DAVAO CITY).
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+500FT AGL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+170219 RPLLYNYX
+(B4186/19 NOTAMN
+Q) RPHI/QRALW/IV/NBO/AW/000/024/0708N12539E005
+A) RPMD B) 1910012200 C) 1911301000
+D) 2200-1000
+E) SPECIAL OPS (AERIAL SURVEY)WILL TAKE PLACE WI:
+07 11 26.22N 125 21 45.67E - 07 13 03.23N 125 22 40.41E -
+07 14 07.10N 125 24 29.37E - 07 11 23.30N 125 27 42.32E -
+07 11 07.73N 125 34 28.67E - 07 09 56.82N 125 35 00.55E -
+07 12 25.40N 125 37 06.65E - 07 12 15.94N 125 37 22.51E -
+07 08 40.55N 125 35 58.07E - 07 09 34.61N 125 35 10.01E -
+07 06 29.30N 125 36 26.65E - 07 06 11.43N 125 35 55.76E -
+07 10 28.18N 125 34 07.31E - 07 10 44.45N 125 29 05.40E -
+07 08 39.02N 125 29 22.19E - 07 05 41.31N 125 30 03.62E -
+07 05 25.73N 125 29 43.27E - 07 13 30.12N 125 24 24.82E -
+07 12 42.28N 125 22 59.50E - 07 11 14.13N 125 22 01.89E -
+07 11 26.22N 125 21 45.67E
+(DAVAO CITY)
+F) SFC G) 500FT AGL
+)
+
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>22:00:00</startTime>
+                <endTime>10:00:00</endTime>
+                <startDay>01</startDay>
+                <endDay>30</endDay>
+                <startMonth>10</startMonth>
+                <endMonth>11</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2019</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmJeppStatusDate>2019-09-17T03:14:12Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

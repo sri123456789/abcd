@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<JeppesenNotam JeppNumber="2019091D866" JeppNbrVersion="1" JeppBcstInd="A" JeppAction="C" JeppFormat="XML04">
+	<NtmSource>MKL</NtmSource>
+	<NtmNumber>09/078</NtmNumber>
+	<NtmNotamType>UD</NtmNotamType>
+	<Fir>
+		<NtmFir>
+			<FirId>KZME</FirId>
+		</NtmFir>
+	</Fir>
+	<Airport>
+	  <NtmApt>
+	    <AptId>KSNH</AptId>
+	    <AptIdIata>   </AptIdIata>
+	    <AptLat>N35101290</AptLat>
+	    <AptLong>W088130020</AptLong>
+	    <AptDdLat>35.170250</AptDdLat>
+	    <AptDdLong>-88.216722</AptDdLong>
+	  </NtmApt>
+	</Airport>
+	<NtmEffDate EffIndicator="">2019-09-12T18:26:00Z</NtmEffDate>
+	<NtmExpDate ExpIndicator="">2025-12-12T23:00:00Z</NtmExpDate>
+	<Qcode>
+		<NtmQcd>
+			<QcdId>OLAS</QcdId>
+			<QcdTraffic>IV</QcdTraffic>
+			<QcdPurpose>M</QcdPurpose>
+			<QcdScope>A</QcdScope>
+			<QcdDecode>OBSTACLE LIGHTS UNSERVICEABLE</QcdDecode>
+		</NtmQcd>
+	</Qcode>
+	<NtmGeoRef>
+		<GeoNtmAreaCode>USA</GeoNtmAreaCode>
+		<GeoNtmIcaoCode>K7</GeoNtmIcaoCode>
+		<GeoNtmCountryCode>USA</GeoNtmCountryCode>
+		<GeoNtmStateCode>TN</GeoNtmStateCode>
+		<GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+		<GeoNtmUpperLimit>010</GeoNtmUpperLimit>
+		<GeoNtmLat LatDd="35.170250">N3510.2</GeoNtmLat>
+		<GeoNtmLong LongDd="-88.216722">W08813.0</GeoNtmLong>
+		<GeoNtmRadius>0</GeoNtmRadius>
+	</NtmGeoRef>
+	<NtmTxtContent>
+<![CDATA[
+SNH OBST POWER LINE LGT (ASN 2018-ASO-792-OE)
+350402N0881529W (6.5NM SSW SNH) 651FT (259FT AGL) UNSERVICEABLE
+1909121826-1912122300
+]]>
+	</NtmTxtContent>
+	<NtmSourceData>
+<![CDATA[
+-------------------------------
+CANCELLED - SIMPLE
+-------------------------------
+UDFNSPARSER SNH
+!MKL 09/078 SNH OBST POWER LINE LGT (ASN 2018-ASO-792-OE)
+350402N0881529W (6.5NM SSW SNH) 651FT (259FT AGL) U/S
+1909121826-1912122300
+-------------------------------
+UDFNSPARSER SNH
+MKL !MKL C09/078
+]]>
+	</NtmSourceData>
+	<NtmJeppStatusDate>2019-11-13T11:52:11Z</NtmJeppStatusDate>
+	<NtmJeppNumberFwdRef Version="1">2019091D866</NtmJeppNumberFwdRef>
+	<NtmJeppNumberBackRef Version="1">2019091D866</NtmJeppNumberBackRef>
+</JeppesenNotam>
+</NOTAMStream>

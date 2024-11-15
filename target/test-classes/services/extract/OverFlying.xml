@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20191042AF2">
+        <NtmSource>LFFAYNYX</NtmSource>
+        <NtmNumber>R2952/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LFBB</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-11-07T00:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-12-06T23:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>ROLP</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>NBO</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>OVERFLYING OF PROHIBITED TO</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LF</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>FRA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="44.900000">N4454.0</GeoNtmLat>
+            <GeoNtmLong LongDd="-0.333333">W00020.0</GeoNtmLong>
+            <GeoNtmRadius>2</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+AIR SAFETY DEVICE AT VAYRES - AIP SUP 312/19 :
+SUBJECT : CREATION OF A TEMPORARY PROHIBITED AREA.
+THIS AIP SUP IS AVBL ON WWW.SIA.AVIATION-CIVILE.GOUV.FR
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+500FT AGL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+241033 LFFAYNYX
+(R2952/19 NOTAMN
+Q) LFBB/QROLP/IV/NBO/W /000/006/4454N00020W002
+A) LFBB B) 1911070000 C) 2005062359
+E) AIR SAFETY DEVICE AT VAYRES - AIP SUP 312/19 :
+SUBJECT : CREATION OF A TEMPORARY PROHIBITED AREA.
+THIS AIP SUP IS AVBL ON WWW.SIA.AVIATION-CIVILE.GOUV.FR
+F) SFC G) 500FT AGL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-24T10:35:27Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

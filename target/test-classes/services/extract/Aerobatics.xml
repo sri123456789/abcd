@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20211040148">
+        <NtmSource>LFFAYNYX</NtmSource>
+        <NtmNumber>W2387/21</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LFFF</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2020-10-31T09:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2026-01-30T18:30:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WBLW</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>AEROBATICS WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EUR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LF</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>FRA</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>020</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>055</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="48.616667">N4837.0</GeoNtmLat>
+            <GeoNtmLong LongDd="0.650000">E00039.0</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+SAT-SUN 0900-1830
+</NtmTxtSchedule>
+        <NtmTxtContent>
+AEROBATICS OVER TOUROUVRE AU PERCHE (76)
+RDL043/6.5NM LFAX ARP
+PSN : 483707N 0003849E
+AXIS : ORIENTED 077/257
+WIDTH : 4500M - LENGTH : 1700M
+USERS INFO :
+PARIS INFO : 129.625MHZ
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+2000FT AMSL 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+5500FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+250915 EUECYIYN
+(W2387/21 NOTAMN
+Q) LFFF/QWBLW/IV/M  /W /020/055/4837N00039E005
+A) LFFF B) 2110310900 C) 2201301830
+D) SAT-SUN 0900-1830
+E) AEROBATICS OVER TOUROUVRE AU PERCHE (76)
+RDL043/6.5NM LFAX ARP
+PSN : 483707N 0003849E
+AXIS : ORIENTED 077/257
+WIDTH : 4500M - LENGTH : 1700M
+USERS INFO :
+PARIS INFO : 129.625MHZ
+F) 2000FT AMSL G) 5500FT AMSL)
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>09:00:00</startTime>
+                <endTime>18:30:00</endTime>
+                <startDay>31</startDay>
+                <endDay>30</endDay>
+                <startMonth>10</startMonth>
+                <endMonth>01</endMonth>
+                <startYear>2021</startYear>
+                <endYear>2022</endYear>
+                <day>SAT</day>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>09:00:00</startTime>
+                <endTime>18:30:00</endTime>
+                <startDay>31</startDay>
+                <endDay>30</endDay>
+                <startMonth>10</startMonth>
+                <endMonth>01</endMonth>
+                <startYear>2021</startYear>
+                <endYear>2022</endYear>
+                <day>SUN</day>
+                <endIndicator>STATED</endIndicator>
+                <daily>NO</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmJeppStatusDate>2021-10-25T09:15:59Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

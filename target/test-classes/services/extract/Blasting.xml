@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20191111EE1">
+        <NtmSource>CYHQYNYX</NtmSource>
+        <NtmNumber>L0622/19</NtmNumber>
+        <NtmNotamType>CD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>CZVR</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>CBS8</AptId>
+                <AptIdIata>YPB</AptIdIata>
+                <AptLat>N49191900</AptLat>
+                <AptLong>W124555200</AptLong>
+                <AptDdLat>49.321944</AptDdLat>
+                <AptDdLong>-124.931111</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-11-06T22:40:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="EST">2025-12-05T23:59:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WHLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>BLASTING WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>CAN</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>CY</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>CAN</GeoNtmCountryCode>
+            <GeoNtmStateCode>BC</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>050</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="49.433333">N4926.0</GeoNtmLat>
+            <GeoNtmLong LongDd="-125.133333">W12508.0</GeoNtmLong>
+            <GeoNtmRadius>2</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+BLASTING ACT WILL TAKE PLACE 0.4NM RADIUS CENTERED ON
+492754N 1250313W (APRX 10NM NNW PORT ALBERNI AD)
+492530N 1250928N (APRX 11NM NNW PORT ALBERNI AD)
+492058N 1250001W (APRX 4NM NW PORT ALBERNI AD)
+SFC TO 2000FT AGL 5000 AMSL. SR-SS.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+5000FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+062240 CYHQYNYX
+(L0622/19 NOTAMR L0049/19
+Q) CZVR/QWHLW/IV/M/W/000/050/4926N12508W002
+A) CZVR B) 1911062240 C) 2002052359 EST
+E) 
+BLASTING ACT WILL TAKE PLACE 0.4NM RADIUS CENTRED ON
+492754N 1250313W (APRX 10NM NNW PORT ALBERNI AD)
+492530N 1250928N (APRX 11NM NNW PORT ALBERNI AD)
+492058N 1250001W (APRX 4NM NW PORT ALBERNI AD)
+SFC TO 2000FT AGL 5000 AMSL. SR-SS
+F) SFC G) 5000FT AMSL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-11-06T22:40:47Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">20191019C65</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<JeppesenNotam JeppNumber="20190906EA2" JeppNbrVersion="1" JeppBcstInd="F" JeppAction="N" JeppFormat="XML04">
+	<NtmSource>UUUUYNYX</NtmSource>
+	<NtmNumber>V9139/19</NtmNumber>
+	<NtmNotamType>C1</NtmNotamType>
+	<Fir>
+		<NtmFir>
+			<FirId>UWWW</FirId>
+		</NtmFir>
+	</Fir>
+	<NtmEffDate EffIndicator="">2019-09-07T05:00:00Z</NtmEffDate>
+	<NtmExpDate ExpIndicator="">2028-12-07T15:00:00Z</NtmExpDate>
+	<Qcode>
+		<NtmQcd>
+			<QcdId>RTCA</QcdId>
+			<QcdTraffic>IV</QcdTraffic>
+			<QcdPurpose>BO</QcdPurpose>
+			<QcdScope></QcdScope>
+			<QcdDecode>TEMPORARY RESTRICTED AREA ACTIVATED</QcdDecode>
+		</NtmQcd>
+	</Qcode>
+	<NtmGeoRef>
+		<GeoNtmAreaCode>EEU</GeoNtmAreaCode>
+		<GeoNtmIcaoCode>UW</GeoNtmIcaoCode>
+		<GeoNtmCountryCode>RUS</GeoNtmCountryCode>
+		<GeoNtmStateCode></GeoNtmStateCode>
+		<GeoNtmLowerLimit>010</GeoNtmLowerLimit>
+		<GeoNtmUpperLimit>030</GeoNtmUpperLimit>
+		<GeoNtmLat LatDd="54.033333">N5402.0</GeoNtmLat>
+		<GeoNtmLong LongDd="50.283333">E05017.0</GeoNtmLong>
+		<GeoNtmRadius>12</GeoNtmRadius>
+	</NtmGeoRef>
+	<NtmTxtContent>
+<![CDATA[
+AIRSPACE CLOSED WI 1KM EITHER SIDE OF LINE JOINING POINTS:
+541100N0502700E-541200N0502700E-540800N0502100E-540600N0502000E-
+540600N0501600E-540100N0501500E-535600N0501200E-535400N0500800E-
+535200N0500700E-535200N0501500E
+]]>
+	</NtmTxtContent>
+	<NtmTxtLowerLimit>
+<![CDATA[
+550M AMSL  
+]]>
+	</NtmTxtLowerLimit>
+	<NtmTxtUpperLimit>
+<![CDATA[
+750M AMSL
+]]>
+	</NtmTxtUpperLimit>
+	<NtmSourceData>
+<![CDATA[
+----------------------
+NEW
+----------------------
+041117 UUUUYNYX
+(V9139/19 NOTAMN
+Q) UWWW/QRTCA/IV/BO/W/010/030/5402N05017E012
+A) UWWW B) 1909070500 C) 1909071500
+E) AIRSPACE CLSD WI 1KM EITHER SIDE OF LINE JOINING POINTS:
+541100N0502700E-541200N0502700E-540800N0502100E-540600N0502000E-
+540600N0501600E-540100N0501500E-535600N0501200E-535400N0500800E-
+535200N0500700E-535200N0501500E
+F) 550M AMSL  G) 750M AMSL
+)
+
+]]>
+	</NtmSourceData>
+	<NtmSpatial>
+	  <ElevatedCurve id="CURVE_01" srsName="urn:ogc:def:crs:EPSG::4326">
+	    <segments>
+	        <posList>50.450000 54.183333 50.450000 54.200000 50.350000 54.133333 50.333333 54.100000 50.266667 54.100000 50.250000 54.016667 50.200000 53.933333 50.133333 53.900000 50.116667 53.866667 50.250000 53.866667</posList>
+	    </segments>
+	     <CurveWidth>
+	        <width>1.000000</width>
+	        <widthUOM>KM</widthUOM>
+	     </CurveWidth>
+	  </ElevatedCurve>
+	</NtmSpatial>
+	<NtmJeppStatusDate>2019-09-04T11:17:51Z</NtmJeppStatusDate>
+</JeppesenNotam>
+</NOTAMStream>

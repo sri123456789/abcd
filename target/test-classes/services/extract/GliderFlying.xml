@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019083ABD3">
+        <NtmSource>HHR</NtmSource>
+        <NtmNumber>08/098</NtmNumber>
+        <NtmNotamType>UD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZLA</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>KOXR</AptId>
+                <AptIdIata>OXR</AptIdIata>
+                <AptLat>N34120290</AptLat>
+                <AptLong>W119122600</AptLong>
+                <AptDdLat>34.200806</AptDdLat>
+                <AptDdLong>-119.207222</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-08-23T15:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-08-14T01:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WGLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>GLIDER FLYING WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K2</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>CA</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="34.153333">N3409.2</GeoNtmLat>
+            <GeoNtmLong LongDd="-119.235000">W11914.1</GeoNtmLong>
+            <GeoNtmRadius>6</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+FIM AIRSPACE PARASAILING WI AN AREA DEFINED AS 6NM
+RADIUS OF 340910N1191403W (3.1NM SW OXR) SFC-400FT AGL DLY
+1500-0100 1908231500-2008140100
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+UDAIDAPPARSER FIM
+!HHR 08/098 FIM AIRSPACE PARASAILING WI AN AREA DEFINED AS 6NM 
+RADIUS OF 340910N1191403W (3.1NM SW OXR) SFC-400FT AGL DLY 
+1500-0100 1908231500-2008140100
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>15:00:00</startTime>
+                <endTime>01:00:00</endTime>
+                <startDay>23</startDay>
+                <endDay>14</endDay>
+                <startMonth>08</startMonth>
+                <endMonth>08</endMonth>
+                <startYear>2019</startYear>
+                <endYear>2020</endYear>
+                <endIndicator>STATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <Navaid>
+            <NtmNav>
+                <NavId>FIM</NavId>
+                <NavType>V</NavType>
+                <NavIcaoCd>K2</NavIcaoCd>
+                <NavLat>N3421.4</NavLat>
+                <NavLong>W11852.9</NavLong>
+                <NavDdLat>34.356694</NavDdLat>
+                <NavDdLong>-118.881292</NavDdLong>
+                <NavAptId/>
+            </NtmNav>
+        </Navaid>
+        <NtmJeppStatusDate>2019-08-22T22:18:25Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

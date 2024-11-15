@@ -1,0 +1,34 @@
+@performance
+Feature: Performance testing restrictedAreaNotams API on the load-service
+
+
+
+ 
+    
+  Scenario: Performance testing to send request with 20 co-ordinates for an area and verify status code.Change the classpath in the Peformance simulation to countryperf(classpath:Performance/RACalifornia.feature@performance)
+    Given url 'https://ncs-load-uat-wus.azurewebsites.net/'
+    * def random_string =
+      """
+      function(s) {
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
+        for (var i = 0; i < s; i++)
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+        return text;
+       }
+      """
+     * def Flightkey = 'LEBL-EGRR Volume-' +random_string(15)
+    Given path 'notam/v1/search/saved/flight'
+    And header Accept = 'application/json'
+    And header Content-Type = 'application/json'
+    And param disposition = 'JSON'
+    And header Non-Human-Id-JWT-TOKEN = 'eyJraWQiOiJUQUdFQWItWXV4emxiV3pGM3g1ZTBQV2ZVZEUiLCJhbGciOiJFUzI1NiJ9.eyJhdWQiOiJOb24tSHVtYW4tSWQtSldUIiwiaWZzIjp7InNwQXR0cnMiOm51bGwsIm1haW51cG4iOm51bGwsIm1haW5vcmdhbml6YXRpb25pZCI6IlRCQyIsImFzc3VyYW5jZXNjb3JlIjpudWxsLCJhc3N1cmFuY2VsZXZlbCI6bnVsbH0sImlzcyI6IlBpbmdBY2Nlc3NBdXRoVG9rZW4iLCJmcCI6eyJzdWJqZWN0IjoiUGVyZlRlc3RYNTA5Q2xpZW50OjpDTj1Cb2VpbmcgQmFzaWMgQXNzdXJhbmNlIFNvZnR3YXJlIElzc3VpbmcgQ0EgRzMsT1U9Y2VydHNlcnZlcnMsTz1Cb2VpbmcsQz1VUzo6ODQ3NDI4ODk0MjA0MzcyOTI5OTk5OTM2NTYxNDg0ODM2NTUwMDgzNzE5NjM2IiwiYXV0aG5Tb3VyY2UiOiJQZXJmVGVzdFg1MDlDbGllbnQifSwiY2VydCI6eyJzdWJzaWRpYXJ5Y29tcGFueUlEIjpudWxsLCJJc3N1ZXIiOiJDTj1Cb2VpbmcgQmFzaWMgQXNzdXJhbmNlIFNvZnR3YXJlIElzc3VpbmcgQ0EgRzMsT1U9Y2VydHNlcnZlcnMsTz1Cb2VpbmcsQz1VUyIsInN1YmplY3QiOiJDTj10ZXN0Y2xpZW50Y2VydC5mZWRwLmRpZ2l0YWxhdmlhdGlvbnNlcnZpY2VzLmNvbSxPVT1zZXJ2ZXJzLE89Qm9laW5nLEM9VVMiLCJzZXJ2aWNlIjpudWxsLCJ1QXR0cmlidXRlcyI6bnVsbCwic3Vic2lkaWFyeUlEIjoiVEJDIiwiYm9laW5nQ29tcGFueUlEIjoiVEJDIiwic2VydmljZUlEIjoiUGVyZlRlc3RYNTA5Q2xpZW50Iiwic2VyaWFsTm8iOiIjODQ3NDI4ODk0MjA0MzcyOTI5OTk5OTM2NTYxNDg0ODM2NTUwMDgzNzE5NjM2In0sImV4cCI6MTYyOTIyNjU3MCwiaWF0IjoxNjI5MjI1Njc1fQ.-8Ucf8ao4Y5j7mmo-OLvVdAKwcwGEEodCpjSqdlv0t935GxNhTbMhml6v2plMRYaGyF-d-MNkXaGbLzZvuzbtg'
+    
+    And param format = 'ICAO,SIMPLE,JSON,JSON_GEOMETRY'
+    
+   And request {     "flight_key": "#(Flightkey)",     "etd": "2023-11-30T00:35:00Z",     "eta": "2023-12-15T22:11:00Z",     "pod": {         "iata": "BCN",         "icao": "LEBL",         "longitude": 2.071093404753668,         "latitude": 41.28868882956533     },     "poa": {         "iata": "LHR",         "icao": "EGLL",         "longitude": -0.46640396118164057,         "latitude": 51.471813862107005     },        "checkpoints": [         {             "name": "GTX",             "longitude": 1.7043369986734263,             "latitude":  42.60455981444045,             "flight_level": "195"},         {             "name": "BSF",             "longitude": 1.181723112218009, 	        "latitude": 44.684243576004405,             "flight_level": "225"},         {             "name": "FIF",             "longitude": 0.840014032611947, 	        "latitude": 46.69186255995987,             "flight_level": "185"},         {             "name": "ANG",             "longitude": 0.4581038848180583, 	        "latitude": 48.50782391586782,             "flight_level": "261"       },         {             "name": "ANSD",             "longitude": 0.07619373702348753, 	        "latitude": 49.548961405826816,             "flight_level": "350"    }, 		{             "name": "RAPD",             "longitude": -0.28561587667613253, 	        "latitude": 50.87378532905342,             "flight_level": "390"}      ] }  
+    And method POST
+    Then status 200
+    
+    
+    

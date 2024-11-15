@@ -1,0 +1,122 @@
+[
+	{
+		"type": "FeatureCollection",
+		"features": 
+[{
+		"type": "Feature",
+		"geometry": {
+			"type": "Polygon",
+			"coordinates": [
+				[
+					[-70.8492847914186, 42.090362988373],
+					[-70.8527872957024, 42.0810400085157],
+					[-70.8508030350759, 42.0839556522793],
+					[-70.8496203459234, 42.0871036296668],
+					[-70.8492847914186, 42.090362988373]
+				]
+			]
+		},
+		"properties": {
+			"lower_alt_msl_ft": 0,
+			"upper_alt_msl_ft": 2500
+		}
+	}],
+	"notamProperties": {
+		"ntmNumber": "G0576/19",
+		"ntmNotamType": "D1",
+		"fir": {
+			"ntmFir": [
+				{
+					"firId": "SBAZ"
+				},
+				{
+					"firId": "SBA2"
+				}
+			]
+		},
+		"airport": {
+			"ntmApt": [
+				{
+					"aptId": "SBIZ",
+					"aptIdIata": "IMP"
+				},
+				{
+					"aptId": "SBI2",
+					"aptIdIata": "IMP"
+				}
+			]
+		},
+		"ntmExpDate": {"value": "2019-04-20T19:39:00Z"},
+		"ntmEffDate": {"value": "2019-04-21T19:39:00Z"},
+		"ntmTxtSchedule": "BTN 0630-1030 DAILY",
+		"ntmTxtContent": "OBST (TORRE) LGTD COORD 053245,68S/0472829,45W ELEV 164M MONTADO",
+		"ntmTxtLowerLimit": "SFC",
+		"ntmTxtUpperLimit": "UNL",
+		"airspace": {
+			"ntmAsp": [
+				{
+					"aspId": "HOG B",
+					"aspType": "MOA",
+					"aspMultiCd": "B",
+					"aspIcaoCd": "K4",
+					"aspLowerLmt": "50",
+					"aspUpperLmt": "999"
+				},
+				{
+					"aspId": "HOG B",
+					"aspType": "MOA",
+					"aspMultiCd": "B",
+					"aspIcaoCd": "K4",
+					"aspLowerLmt": "50",
+					"aspUpperLmt": "999"
+				}
+			]
+		},
+		"airway": {
+			"ntmAwy": [
+				{
+					"awyId": "A368",
+					"awyArea": "EEU",
+					"awyBeginPt": "FKG",
+					"awyEndPt": "SALMO",
+					"awyLowerLmt": "157",
+					"awyUpperLmt": "311"
+				},
+				{
+					"awyId": "A368",
+					"awyArea": "EEU",
+					"awyBeginPt": "FKG",
+					"awyEndPt": "SALMO",
+					"awyLowerLmt": "157",
+					"awyUpperLmt": "311"
+				}
+			]
+		},
+		"wayPoint": {
+			"ntmWpt": [
+				{
+					"wptId": "CASSE",
+					"wptIcaoCd": "K2"
+				},
+				{
+					"wptId": "CASSE",
+					"wptIcaoCd": "K2"
+				}
+			]
+		},
+		"qcode": {
+			"ntmQcd": [
+				{
+					"qcdId": "OBCE",
+					"qcdDecode": "OBSTACLE ERECTED"
+				},
+				{
+					"qcdId": "OBCE",
+					"qcdDecode": "OBSTACLE ERECTED"
+				}
+			]
+		},
+		"ntmJeppStatusDate":"2019-04-20T19:39:00Z",
+		"jeppNumber": "201905371A5"
+	}
+}]

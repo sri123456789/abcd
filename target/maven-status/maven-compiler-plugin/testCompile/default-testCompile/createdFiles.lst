@@ -1,0 +1,5 @@
+com\jeppesen\ncs\GlobalReport.class
+com\jeppesen\ncs\database\Runner.class
+com\jeppesen\ncs\extract\Runner.class
+com\jeppesen\ncs\Load\Runner.class
+com\jeppesen\ncs\utils\ApiUtilsTest.class

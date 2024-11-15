@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.jeppesen.com/xml/JeppesenNOTAM_DEV2.xsd">
+	<JeppesenNotam JeppNumber="2019053629B"
+		JeppNbrVersion="1" JeppBcstInd="F" JeppAction="N" JeppFormat="XML02">
+		<NtmSource>ZBBBYNYX</NtmSource>
+		<NtmNumber>A2315/19</NtmNumber>
+		<NtmNotamType>C1</NtmNotamType>
+		<Fir>
+			<NtmFir>
+				<FirId>ZLHW</FirId>
+			</NtmFir>
+		</Fir>
+		<NtmEffDate EffIndicator="">2019-05-20T23:20:00Z</NtmEffDate>
+		<NtmExpDate ExpIndicator="">2019-05-21T03:40:00Z</NtmExpDate>
+		<Qcode>
+			<NtmQcd>
+				<QcdId>ARLT</QcdId>
+				<QcdTraffic>IV</QcdTraffic>
+				<QcdPurpose>NBO</QcdPurpose>
+				<QcdScope>E</QcdScope>
+				<QcdDecode>ATS ROUTE LIMITED TO</QcdDecode>
+			</NtmQcd>
+		</Qcode>
+		<NtmGeoRef>
+			<GeoNtmAreaCode>EEU</GeoNtmAreaCode>
+			<GeoNtmIcaoCode>ZL</GeoNtmIcaoCode>
+			<GeoNtmCountryCode>CHN</GeoNtmCountryCode>
+			<GeoNtmStateCode></GeoNtmStateCode>
+			<GeoNtmLowerLimit>187</GeoNtmLowerLimit>
+			<GeoNtmUpperLimit>217</GeoNtmUpperLimit>
+			<GeoNtmLat LatDd="35.800000">N3548.0</GeoNtmLat>
+			<GeoNtmLong LongDd="105.966667">E10558.0</GeoNtmLong>
+			<GeoNtmRadius>31</GeoNtmRadius>
+		</NtmGeoRef>
+		<NtmTxtContent><![CDATA[SEGMENT OF ATS RTE CLOSED BTN 5700M(INCLUSIVE) AND6600M(INCLUSIVE):1. W198: JINGNING VOR 'JIG'-VISIN.2. W93:  JINGNING VOR 'JIG'-ESGIG.]]></NtmTxtContent>
+		<NtmTxtLowerLimit><![CDATA[FL187]]></NtmTxtLowerLimit>
+		<NtmTxtUpperLimit><![CDATA[FL217]]></NtmTxtUpperLimit>
+		<NtmSourceData><![CDATA[----------------------NEW----------------------201414 ZBBBYNYX(A2315/19 NOTAMNQ) ZLHW/QARLT/IV/NBO/E/187/217/3548N10558E031A) ZLHW B) 1905202320 C) 1905210340E) SEGMENT OF ATS RTE CLSD BTN 5700M(INCLUSIVE) AND6600M(INCLUSIVE):1. W198: JINGNING VOR 'JIG'-VISIN.2. W93:  JINGNING VOR 'JIG'-ESGIG.F) FL187 G) FL217)]]></NtmSourceData>
+		<Airway>
+			<NtmAwy>
+				<AwyId>W198</AwyId>
+				<AwyArea>EEU</AwyArea>
+				<AwyBeginPt>JIG</AwyBeginPt>
+				<AwyEndPt>VISIN</AwyEndPt>
+				<AwyLowerLmt>187</AwyLowerLmt>
+				<AwyUpperLmt>217</AwyUpperLmt>
+			</NtmAwy>
+			<NtmAwy>
+				<AwyId>W93</AwyId>
+				<AwyArea>EEU</AwyArea>
+				<AwyBeginPt>JIG</AwyBeginPt>
+				<AwyEndPt>ESGIG</AwyEndPt>
+				<AwyLowerLmt>187</AwyLowerLmt>
+				<AwyUpperLmt>217</AwyUpperLmt>
+			</NtmAwy>
+		</Airway>
+		<NtmJeppStatusDate>2019-05-20T14:17:35Z</NtmJeppStatusDate>
+	</JeppesenNotam>
+</NOTAMStream>

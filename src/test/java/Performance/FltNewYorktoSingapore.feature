@@ -1,0 +1,15 @@
+@performance
+Feature: Performance testing restrictedAreaNotams API on the load-service
+
+
+
+  Scenario: Performance testing to send request with 20 co-ordinates for an area and verify status code.Change the classpath in the Peformance simulation to countryperf(classpath:Performance/RACalifornia.feature@performance)
+     Given url 'https://ncs-load-int-wus.azurewebsites.net/notam/v1'
+    Given path 'search/ad-hoc/flight/run'
+    And header Accept = 'application/json'
+    And header Content-Type = 'application/json'
+    And param disposition = 'JSON'
+    And param format = 'ICAO,SIMPLE,JSON,JSON_GEOMETRY'
+    And request {"flight_key": "AA 87 NY","active": true,"destinations": [],"destination_groups": [],"etd": "2022-05-05T20:35:00Z","eta": "2022-05-06T22:11:00Z","pod": {"iata": "JFK","icao": "KJFK","longitude": -73.77971649169922,"latitude": 40.6513410441644},"poa": {"iata": "SIN","icao": "WSSS","longitude": 103.98662567138672,"latitude": 1.3635492491975707},"alternates": [{"alternate_type": "DEPARTURE_ALTERNATE","airport": {"iata": "EWR","icao": "KEWR","longitude": -74.17230606079102,"latitude": 40.69547691646669}},{"alternate_type": "ARRIVAL_ALTERNATE","airport": {"iata": "QPG","icao": "WSAP","longitude": 103.90731811523438,"latitude": 1.3570279552033715}},{"alternate_type": "ENROUTE_ALTERNATE","airport": {"iata": "FCO",              "icao": "LIRF","longitude": 12.249069213867188,"latitude": 41.789744876718984}}],"checkpoints": [{"name": "BOBO","longitude": -73.5967,"latitude": 40.6160,"flight_level": "151"},{"name": "MOMO","longitude": -73.3303,"latitude": 40.6150,"flight_level": "19300"},{"name": "SOMO","longitude": -73.0982,"latitude": 40.6207,"flight_level": "31000"},{"name": "ZOMO","longitude": -70.57617187499999,"latitude": 41.178653972331674,"flight_level": "31000"},{"name": "JOMO","longitude": -64.072265625,"latitude": 41.31082388091818,"flight_level": "31000"},{"name": "EOMO","longitude": -58.71093750000001,"latitude": 41.57436130598913,       "flight_level": "31000"},{"name": "FOMO", "longitude": -53.4375,"latitude": 41.5086,"flight_level": "31000"},{"name": "TOMO","longitude": -42.1875,"latitude": 40.4469,"flight_level": "31000"},{"name": "BOMO","longitude": -27.4219,"latitude": 38.8226,"flight_level": "31000"},{"name": "COMO","longitude": -9.8438,"latitude": 38.2727,"flight_level": "31000"},{"name": "ROMO","longitude": 4.5703,"latitude": 41.5086,"flight_level": "31000"},{"name": "DOMO","longitude": 15.1172,"latitude": 42.0330,"flight_level": "31000"},{"name": "EOMO",  "longitude": 27.7734,"latitude": 39.0960,"flight_level": "33000"},{"name": "LOMO","longitude": 37.177734375,"latitude": 38.54816542304656,"flight_level": "33000"},{ "name": "GOMO","longitude": 49.9219,"latitude": 38.2727,"flight_level": "33000"},{"name": "HOMO","longitude": 63.9844,"latitude": 36.3151,"flight_level": "33000"},{"name": "GOMO","longitude": 75.5859,"latitude": 27.6835,"flight_level": "33000"},{"name": "IOMO","longitude": 85.4297,"latitude": 18.3128,"flight_level": "33000"},{"name": "JOMO","longitude": 93.8672,"latitude": 13.5819,"flight_level": "35000"}]}
+     And method POST
+    Then status 200

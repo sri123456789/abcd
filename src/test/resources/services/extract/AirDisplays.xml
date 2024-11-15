@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019102B304">
+        <NtmSource>FAJSYNYX</NtmSource>
+        <NtmNumber>A4012/19</NtmNumber>
+        <NtmNotamType>UD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>FAJA</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>FAVG</AptId>
+                <AptIdIata>VIR</AptIdIata>
+                <AptLat>S29461500</AptLat>
+                <AptLong>E031033700</AptLong>
+                <AptDdLat>-29.770833</AptDdLat>
+                <AptDdLong>31.060278</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-10-21T15:30:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="EST">2025-12-18T21:30:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WALW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>AIR DISPLAY WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>AFR</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>FA</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>ZAF</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>040</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="-29.816667">S2949.0</GeoNtmLat>
+            <GeoNtmLong LongDd="30.943333">E03056.6</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+DLY 1530-2130
+</NtmTxtSchedule>
+        <NtmTxtContent>
+WESTVILLE, DURBAN, KWAZULU NATAL (294901S 0305636E): LASER BEAM
+(3300FT AGL) DISPLAY TAKING PLACE.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+GND 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+3925FT AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+160754 FAJSYNYX
+(A4012/19 NOTAMN 
+Q) FAJA/QWALW/IV/M/W/000/040/2949S03057E005
+A) FAJA B) 1910211530 C) 2001182130 EST
+D) DLY 1530-2130
+E) WESTVILLE, DURBAN, KWAZULU NATAL (294901S 0305636E): LASER BEAM
+(3300FT AGL) DISPLAY TAKING PLACE.
+F) GND G) 3925FT AMSL
+)
+
+</NtmSourceData>
+        <NtmSchedule>
+            <timeSheet>
+                <timeReference>UTC</timeReference>
+                <startTime>15:30:00</startTime>
+                <endTime>21:30:00</endTime>
+                <startDay>21</startDay>
+                <endDay>31</endDay>
+                <startMonth>10</startMonth>
+                <endMonth>12</endMonth>
+                <startYear>2019</startYear>
+                <endYear>3000</endYear>
+                <endIndicator>UNSTATED</endIndicator>
+                <daily>YES</daily>
+                <excluded>NO</excluded>
+            </timeSheet>
+        </NtmSchedule>
+        <NtmJeppStatusDate>2019-10-16T07:55:10Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

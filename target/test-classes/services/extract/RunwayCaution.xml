@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20220167B7F">
+        <NtmSource>DTW</NtmSource>
+        <NtmNumber>01/807</NtmNumber>
+        <NtmNotamType>UD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZOB</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>KDTW</AptId>
+                <AptIdIata>DTW</AptIdIata>
+                <AptLat>N42124480</AptLat>
+                <AptLong>W083211220</AptLong>
+                <AptDdLat>42.212444</AptDdLat>
+                <AptDdLong>-83.353389</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2022-01-22T23:57:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2026-01-23T23:57:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>MRHH</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose/>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>RUNWAY HAZARD DUE TO</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K5</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>MI</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="42.212444">N4212.7</GeoNtmLat>
+            <GeoNtmLong LongDd="-83.353389">W08321.2</GeoNtmLong>
+            <GeoNtmRadius>0</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+DTW RWY 21L FICON 10 PCT 1/8IN DRY SN OBS AT 2201222357.
+2201222357-2201232357
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+UDFNSPARSER DTW
+!DTW 01/807 DTW RWY 21L FICON 10 PCT 1/8IN DRY SN OBS AT 2201222357.
+2201222357-2201232357
+</NtmSourceData>
+        <NtmSpatial>
+            <ElevatedSurface id="750131" srsName="urn:ogc:def:crs:EPSG::4326">
+                <patches>
+                    <PolygonPatch>
+                        <exterior>
+                            <LinearRing>
+                                <posList>42.217197 -83.3362 42.21721 -83.33619 42.217612 -83.335894 42.217622 -83.335887 42.217773 -83.335775 42.218837 -83.334992 42.219171 -83.334746 42.219751 -83.334319 42.219776 -83.3343 42.219745 -83.334224 42.219734 -83.334199 42.219615 -83.33391 42.219604 -83.333884 42.219574 -83.33381 42.219548 -83.333829 42.218662 -83.334482 42.218314 -83.334738 42.217633 -83.33524 42.217622 -83.335248 42.217221 -83.335543 42.217208 -83.335553 42.214909 -83.337247 42.214437 -83.337594 42.209513 -83.341221 42.208971 -83.341621 42.202107 -83.346677 42.201645 -83.347017 42.201165 -83.347371 42.200715 -83.347703 42.199528 -83.348577 42.199426 -83.348652 42.199411 -83.348663 42.199222 -83.348803 42.199207 -83.348814 42.199017 -83.348954 42.199002 -83.348964 42.198913 -83.34903 42.195527 -83.351524 42.195497 -83.351547 42.195535 -83.351641 42.195545 -83.351666 42.195646 -83.351912 42.195656 -83.351938 42.195696 -83.352037 42.195727 -83.352014 42.196343 -83.35156 42.198906 -83.349672 42.198992 -83.34961 42.199006 -83.349599 42.199401 -83.349308 42.199416 -83.349297 42.199517 -83.349223 42.200583 -83.348438 42.201401 -83.347835 42.201519 -83.347748 42.202181 -83.34726 42.205834 -83.344569 42.206604 -83.344003 42.20737 -83.343438 42.208597 -83.342534 42.20983 -83.341626 42.21157 -83.340344 42.213007 -83.339286 42.214685 -83.33805 42.215111 -83.337737 42.217197 -83.3362</posList>
+                            </LinearRing>
+                        </exterior>
+                    </PolygonPatch>
+                </patches>
+                <SpatRef>
+                    <entityRef>RWY-21L-CONC-KDTW-MRHH</entityRef>
+                </SpatRef>
+            </ElevatedSurface>
+        </NtmSpatial>
+        <Runway>
+            <NtmRwy>
+                <RwyId>21L</RwyId>
+                <RwyAptId>KDTW</RwyAptId>
+                <RwySfc>CONC</RwySfc>
+                <RwyAction>CAUTION</RwyAction>
+                <entityRef>RWY-21L-CONC-KDTW-MRHH</entityRef>
+            </NtmRwy>
+        </Runway>
+        <NtmJeppStatusDate>2022-01-23T00:00:51Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

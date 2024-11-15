@@ -1,0 +1,5 @@
+13:50:45.086 karate.env system property was: test 
+13:50:45.087 karate Environment is:  test 
+13:50:45.100 >> lock acquired, begin callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:50:45.127 << lock released, cached callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:50:45.566 assertion failed: path: $, actual: {timestamp=2024-11-01T19:50:45.569+00:00, status=400, error=Bad Request, message=Invalid startDateTime parameter., path=/restrictedAreaNotams}, expected: 'Invalid startDateTime parameter.', reason: actual value is not a string

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20191054218">
+        <NtmSource>DEN</NtmSource>
+        <NtmNumber>10/085</NtmNumber>
+        <NtmNotamType>UD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZDV</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>KDEN</AptId>
+                <AptIdIata>DEN</AptIdIata>
+                <AptLat>N39514200</AptLat>
+                <AptLong>W104402340</AptLong>
+                <AptDdLat>39.861667</AptDdLat>
+                <AptDdLong>-104.673167</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-10-30T19:38:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-12-01T23:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>OBCE</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>OBSTACLE ERECTED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K2</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>CO</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>060</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="39.861667">N3951.7</GeoNtmLat>
+            <GeoNtmLong LongDd="-104.673167">W10440.4</GeoNtmLong>
+            <GeoNtmRadius>0</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+DEN OBST CRANE (ASN 2017-ANM-1762-NRA) 395141N1043959W
+(0.3NM E DEN) 5600FT (235FT AGL) FLAGGED AND LGTD
+1910301938-2009012300
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+UDAIDAPPARSER DEN
+!DEN 10/085 DEN OBST CRANE (ASN 2017-ANM-1762-NRA) 395141N1043959W 
+(0.3NM E DEN) 5600FT (235FT AGL) FLAGGED AND LGTD 
+1910301938-2009012300
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-30T19:39:28Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

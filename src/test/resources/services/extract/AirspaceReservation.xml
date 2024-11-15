@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019104ABDA">
+        <NtmSource>UKKRYNYX</NtmSource>
+        <NtmNumber>A3712/19</NtmNumber>
+        <NtmNotamType>CN</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>UKLV</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-10-27T21:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-11-04T21:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>RACA</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>NBO</QcdPurpose>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>AIRSPACE RESERVATION ACTIVATED</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>EEU</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>UK</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>UKR</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>050</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="50.233333">N5014.0</GeoNtmLat>
+            <GeoNtmLong LongDd="23.533333">E02332.0</GeoNtmLong>
+            <GeoNtmRadius>82</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+TEMPORARY RESERVED AREA BOUNDED
+BY COORDINATES:
+513117N 0234557E  513045N 0234029E
+THEN ALONG STATE BOUNDARY UNTIL POINT
+490252N 0224421E  485812N 0224304E
+485541N 0225533E  490622N 0230107E
+492505N 0225645E  493900N 0225930E
+500014N 0232241E  501618N 0234957E
+502037N 0240935E  503100N 0241937E
+505355N 0241722E  511155N 0235854E
+511718N 0234920E  513117N 0234557E ACTIVATED.
+FLIGHTS OF STATE UNMANNED AIRCRAFT.
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+1500M AMSL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+270954 UKKRYNYX
+(A3712/19 NOTAMN
+Q) UKLV/QRACA/IV/NBO/W /000/050/5014N02332E082
+A) UKLV B) 1910272100 C) 1911042100
+E) TEMPORARY RESERVED AREA BOUNDED
+BY COORDINATES:
+513117N 0234557E  513045N 0234029E
+THEN ALONG STATE BOUNDARY UNTIL POINT
+490252N 0224421E  485812N 0224304E
+485541N 0225533E  490622N 0230107E
+492505N 0225645E  493900N 0225930E
+500014N 0232241E  501618N 0234957E
+502037N 0240935E  503100N 0241937E
+505355N 0241722E  511155N 0235854E
+511718N 0234920E  513117N 0234557E ACTIVATED.
+FLIGHTS OF STATE UNMANNED AIRCRAFT.
+F) SFC G) 1500M AMSL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-27T09:55:56Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

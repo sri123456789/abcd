@@ -1,0 +1,4 @@
+13:50:48.644 karate.env system property was: test 
+13:50:48.644 karate Environment is:  test 
+13:50:48.656 >> lock acquired, begin callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')
+13:50:48.674 << lock released, cached callonce: read('classpath:com/jeppesen/ncs/common/Utility.feature')

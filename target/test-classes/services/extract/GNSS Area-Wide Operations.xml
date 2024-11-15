@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="F" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="201910013ED">
+        <NtmSource>LTAAYNYX</NtmSource>
+        <NtmNumber>A5512/19</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>LTAA</FirId>
+            </NtmFir>
+        </Fir>
+        <NtmEffDate EffIndicator="">2019-10-01T13:39:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="EST">2025-12-03T11:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>GWXX</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose/>
+                <QcdScope>E</QcdScope>
+                <QcdDecode>GNSS AREA-WIDE OPERATIONS  </QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>MES</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>LT</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>TUR</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="38.933333">N3856.0</GeoNtmLat>
+            <GeoNtmLong LongDd="37.150000">E03709.0</GeoNtmLong>
+            <GeoNtmRadius>423</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+RECENTLY, GPS SIGNAL OUTAGES HAVE BEEN REPORTED BY THE PILOTS OF
+THE
+AIRCRAFT OPERATING WITHIN SOME PARTS OF ANKARA FIR.
+AIRCRAFT OPERATORS OPERATING WITHIN ANKARA FIR ARE ADVICED TO BE
+CAUTIOUS ABOUT GPS OUTAGES.
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+011339 EUECYIYN
+(A5512/19 NOTAMR A3609/19
+Q) LTAA/QGWXX/IV/NBO/E /000/999/3856N03709E423
+A) LTAA B) 1910011339 C) 2001031100EST
+E) RECENTLY, GPS SIGNAL OUTAGES HAVE BEEN REPORTED BY THE PILOTS OF 
+THE 
+AIRCRAFT OPERATING WITHIN SOME PARTS OF ANKARA FIR.
+AIRCRAFT OPERATORS OPERATING WITHIN ANKARA FIR ARE ADVICED TO BE 
+CAUTIOUS ABOUT GPS OUTAGES.)
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-01T13:40:51Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">20190700CF8</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

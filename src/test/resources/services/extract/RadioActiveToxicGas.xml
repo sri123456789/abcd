@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019102E00B">
+        <NtmSource>YBBBZEZX</NtmSource>
+        <NtmNumber>C0437/19</NtmNumber>
+        <NtmNotamType>AD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>YBBB</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>YWLM</AptId>
+                <AptIdIata>NTL</AptIdIata>
+                <AptLat>S32474200</AptLat>
+                <AptLong>E151500400</AptLong>
+                <AptDdLat>-32.795000</AptDdLat>
+                <AptDdLong>151.834444</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-10-17T00:51:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="EST">2027-12-02T22:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WRLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>RADIOACTIVE OR TOXIC MATERIALS WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>SPA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>YB</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>AUS</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="-32.800000">S3248.0</GeoNtmLat>
+            <GeoNtmLong LongDd="151.833333">E15150.0</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+RADAIATION HAZARD FM TEMPO RADAR
+BRG 180 MAG 642M FROM ARP (SOUTHERN GRASS ADJACENT NDB MAST)
+DO NOT OVERFLY BLW 500FT AGL WI 150M RADIUS
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+170051 YBBBZEZX
+C0437/19 NOTAMN
+Q) YBBB/QWRLW/IV/M/AW/000/999/3248S15150E005
+A) YWLM
+B) 1910170051 C) 1912022200 EST
+E) RADAIATION HAZARD FM TEMPO RADAR
+BRG 180 MAG 642M FROM ARP (SOUTHERN GRASS ADJACENT NDB MAST)
+DO NOT OVERFLY BLW 500FT AGL WI 150M RADIUS
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-10-17T00:51:49Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

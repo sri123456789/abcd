@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="3" JeppNumber="19970814387">
+        <NtmSource>USAZZZZZ</NtmSource>
+        <NtmNumber>157/97/A/16</NtmNumber>
+        <NtmNotamType>NF</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>KZNY</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>KEWR</AptId>
+                <AptIdIata>EWR</AptIdIata>
+                <AptLat>N40413293</AptLat>
+                <AptLong>W074100727</AptLong>
+                <AptDdLat>40.692481</AptDdLat>
+                <AptDdLong>-74.168686</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2016-03-14T20:01:07Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2028-12-31T23:59:59Z</NtmExpDate>
+      
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WJLW</QcdId>
+                <QcdTraffic/>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>BANNER OR TARGET TOWING WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>USA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>K6</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>USA</GeoNtmCountryCode>
+            <GeoNtmStateCode>NJ</GeoNtmStateCode>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="40.691667">N4041.5</GeoNtmLat>
+            <GeoNtmLong LongDd="-74.168333">W07410.1</GeoNtmLong>
+            <GeoNtmRadius>0</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtContent>
+EWR PARA-SAIL AND BANNER TOWING OPERATIONS 1000FT AND BELOW IN
+UPPER AND LOWER  NEW YORK BAYS INCLUDING ROCKAWAY INLET
+INDEFINITELY.
+</NtmTxtContent>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+QU COSJPXH
+.COSJPXH 141304
+141900 USAZZZZZ
+(A8/97 NOTAMN
+Q)KZNY/QKKKK/XX///000/999/
+A) KEWR KZNY
+B) WIE
+C) UFN
+D)
+E) EWR PARA-SAIL AND BANNER TOWING OPERATIONS 1000FT AND BELOW IN
+UPPER AND LOWER  NEW YORK BAYS INCLUDING ROCKAWAY INLET
+INDEFINITELY.
+F)
+G)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+</NtmSourceData>
+        <NtmJeppStatusDate>2015-04-02T14:52:17Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>

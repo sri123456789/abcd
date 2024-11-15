@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="2019110D78E">
+        <NtmSource>YBBBZEZX</NtmSource>
+        <NtmNumber>C1416/19</NtmNumber>
+        <NtmNotamType>AD</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>YMMM</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>YSCB</AptId>
+                <AptIdIata>CBR</AptIdIata>
+                <AptLat>S35182500</AptLat>
+                <AptLong>E149114200</AptLong>
+                <AptDdLat>-35.306944</AptDdLat>
+                <AptDdLong>149.195000</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2019-11-05T21:22:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2029-12-28T23:30:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WLLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope/>
+                <QcdDecode>ASCENT OF FREE BALLOON WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>SPA</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>YM</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>AUS</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>999</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="-35.333333">S3520.0</GeoNtmLat>
+            <GeoNtmLong LongDd="149.050000">E14903.0</GeoNtmLong>
+            <GeoNtmRadius>5</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+MON-FRI 2300-2330
+</NtmTxtSchedule>
+        <NtmTxtContent>
+MET BALLOON RELEASE FM PSN 351933S 1490255E
+'WESTON', AUSTRALIAN CAPITAL TERRITORY
+BRG 250 MAG 7.3NM FM CANBERRA AD (YSCB)
+OPR CTC TEL: 0418 370 031
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+UNL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+052122 YBBBZEZX
+C1416/19 NOTAMR C1332/19 
+Q) YMMM/QWLLW/IV/M/W/000/999/3520S14903E005
+A) YMMM
+B) 1911052122 C) 2002282330
+D) MON-FRI 2300-2330
+E) MET BALLOON RELEASE FM PSN 351933S 1490255E
+'WESTON', AUSTRALIAN CAPITAL TERRITORY
+BRG 250 MAG 7.3NM FM CANBERRA AD (YSCB)
+OPR CTC TEL: 0418 370 031
+F) SFC G) UNL
+</NtmSourceData>
+        <NtmJeppStatusDate>2019-11-05T21:22:34Z</NtmJeppStatusDate>
+        <NtmJeppNumberBackRef Version="1">20191025055</NtmJeppNumberBackRef>
+    </JeppesenNotam>
+</NOTAMStream>

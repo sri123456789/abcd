@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NOTAMStream xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <JeppesenNotam JeppAction="N" JeppBcstInd="A" JeppFormat="XML04" JeppNbrVersion="1" JeppNumber="20211106CD3">
+        <NtmSource>OMAEYNYX</NtmSource>
+        <NtmNumber>A2781/21</NtmNumber>
+        <NtmNotamType>C1</NtmNotamType>
+        <Fir>
+            <NtmFir>
+                <FirId>OMAE</FirId>
+            </NtmFir>
+        </Fir>
+        <Airport>
+            <NtmApt>
+                <AptId>OMDM</AptId>
+                <AptIdIata>NHD</AptIdIata>
+                <AptLat>N25013660</AptLat>
+                <AptLong>E055215880</AptLong>
+                <AptDdLat>25.026833</AptDdLat>
+                <AptDdLong>55.366333</AptDdLong>
+            </NtmApt>
+        </Airport>
+        <NtmEffDate EffIndicator="">2020-01-01T16:00:00Z</NtmEffDate>
+        <NtmExpDate ExpIndicator="">2027-01-28T18:00:00Z</NtmExpDate>
+        <Qcode>
+            <NtmQcd>
+                <QcdId>WDLW</QcdId>
+                <QcdTraffic>IV</QcdTraffic>
+                <QcdPurpose>M</QcdPurpose>
+                <QcdScope>A</QcdScope>
+                <QcdDecode>DEMOLITION OF EXPLOSIVES WILL TAKE PLACE</QcdDecode>
+            </NtmQcd>
+        </Qcode>
+        <NtmGeoRef>
+            <GeoNtmAreaCode>MES</GeoNtmAreaCode>
+            <GeoNtmIcaoCode>OM</GeoNtmIcaoCode>
+            <GeoNtmCountryCode>ARE</GeoNtmCountryCode>
+            <GeoNtmStateCode/>
+            <GeoNtmLowerLimit>000</GeoNtmLowerLimit>
+            <GeoNtmUpperLimit>100</GeoNtmUpperLimit>
+            <GeoNtmLat LatDd="25.060000">N2503.6</GeoNtmLat>
+            <GeoNtmLong LongDd="55.310000">E05518.6</GeoNtmLong>
+            <GeoNtmRadius>1</GeoNtmRadius>
+        </NtmGeoRef>
+        <NtmTxtSchedule>
+JAN 01 AND EV THU AND FRI BTN 1600-1800
+</NtmTxtSchedule>
+        <NtmTxtContent>
+FIREWORKS DISPLAY WILL TAKE PLACE FOR 5 MIN IN AREA CIRCLE WITH
+RADIUS 350M CENTERED ON 250338.27N 0551835.11E
+</NtmTxtContent>
+        <NtmTxtLowerLimit>
+SFC 
+</NtmTxtLowerLimit>
+        <NtmTxtUpperLimit>
+656FT AGL
+</NtmTxtUpperLimit>
+        <NtmSourceData>
+----------------------
+NEW
+----------------------
+030706 OMAEYNYX
+(A2781/21 NOTAMN 
+Q) OMAE/QWMLW/IV/BO/W/000/007/2504N05519E001
+A) OMAE B) 2201011600 C) 2201281800
+D) JAN 01 AND EV THU AND FRI BTN 1600-1800
+E) FIREWORKS DISPLAY WILL TAKE PLACE FOR 5 MIN IN AREA CIRCLE WITH
+RADIUS 350M CENTERED ON 250338.27N 0551835.11E
+F) SFC G) 656FT AGL
+)
+
+</NtmSourceData>
+        <NtmJeppStatusDate>2021-11-03T07:07:09Z</NtmJeppStatusDate>
+    </JeppesenNotam>
+</NOTAMStream>
