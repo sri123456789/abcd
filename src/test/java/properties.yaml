@@ -22,7 +22,7 @@ database_pass: 'Nv4va5tmg63ndyx!'
 
 
 azure_container_name: 'ncs-ext-uat-bl'
-azure_connection_string: 'DefaultEndpointsProtocol=https;AccountName=ncsexttestsa;AccountKey=ww9qSiGOIGWLM7GQeoGmZzS+komKi4pGhzrOfsZIj7OB0a2KQDW7iifLJk8v7ZBPuGxNkJ3tSvEHdBWMSmFyLA==;EndpointSuffix=core.windows.net'
+azure_connection_string: 'DefaultEndpointsProtocol=https;AccountName=ncsexttestsa;AccountKey=wA==;EndpointSuffix=core.windows.net'
 
 
 
